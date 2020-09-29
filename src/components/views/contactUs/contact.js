@@ -1,22 +1,16 @@
-import React from 'react';
-import { useForm } from "react-hook-form";
+import React, {Component} from 'react';
 
-function App() {
-    const { register, handleSubmit } = useForm();
-    const onSubmit = data => console.log(data);
-    return (
-        <div className="App">
-            <form onSubmit={handleSubmit(onSubmit)}>
-                <input name="firstNameniroi" ref={register} />
-                <select name="gendessr" ref={register}>
-                    <option value="female">female</option>
-                    <option value="male">male</option>
-                    <option value="other">other</option>
-                </select>
-                <input type="submit" />
-            </form>
- </div>
-    );
+class Contact extends Component {
+    render() {
+        return (
+            <div>
+                <h1>Hey I am Niro!!!!</h1>
+                <h1>Hey I am Niro!!!!</h1>
+
+            </div>
+        );
+    }
 }
 
-export default App;
+export default Contact;
+

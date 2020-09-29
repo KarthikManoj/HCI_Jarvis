@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Navigation from "./components/Navigation";
 import AddToCart from "./components/views/addCart/addToCart";
+import Contact from "./components/views/contactUs/contact";
 function App() {
   return (
       <BrowserRouter>
@@ -15,6 +16,8 @@ function App() {
 
           <Switch>
         <Route path="/addCart" component={AddToCart}></Route>
+              <Route path="/Cont" component={Contact}></Route>
+
           </Switch>
       </BrowserRouter>
   );
