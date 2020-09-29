@@ -7,7 +7,7 @@ function App() {
     return (
         <div className="App">
             <form onSubmit={handleSubmit(onSubmit)}>
-                <input name="firstName" ref={register} />
+                <input name="firstNameniroi" ref={register} />
                 <select name="gender" ref={register}>
                     <option value="female">female</option>
                     <option value="male">male</option>
