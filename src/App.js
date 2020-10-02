@@ -9,6 +9,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import AddToCart from "./components/views/addCart/addToCart";
 import Contact from "./components/views/contactUs/contact";
+import Footer from "./components/Footer";
+
 function App() {
   return (
       <BrowserRouter>
@@ -19,6 +21,8 @@ function App() {
               <Route path="/Cont" component={Contact}></Route>
 
           </Switch>
+          <br />
+          <Footer />
       </BrowserRouter>
   );
 }
