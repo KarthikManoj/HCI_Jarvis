@@ -38,6 +38,8 @@
     ]
   },
   "devDependencies": {
-    "react-animated-text": "^0.1.4"
+    "react-animated-text": "^0.1.4",
+    "react-modal": "^3.11.2",
+    "react-reveal": "^1.2.2"
   }
 }
