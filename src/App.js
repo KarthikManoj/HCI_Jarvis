@@ -7,23 +7,26 @@ import UploadBookPage from './components/views/uploadBook/UploadBookPage.js'
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Navigation from "./components/Navigation";
-import AddToCart from "./components/views/addCart/addToCart";
+import addCart from "./components/views/addCart/App"
 import Contact from "./components/views/contactUs/contact";
 import Footer from "./components/Footer";
+import AddToCardMain from "./components/views/addCart/AddToCardMain";
 
 function App() {
   return (
       <BrowserRouter>
           <Navigation/>
 
+
           <Switch>
-        <Route path="/addCart" component={AddToCart}></Route>
+              <Route path="/addCart" component={AddToCardMain}></Route>
               <Route path="/Cont" component={Contact}></Route>
 
           </Switch>
-          <br />
-          <Footer />
+
+
       </BrowserRouter>
+
   );
 }
 
