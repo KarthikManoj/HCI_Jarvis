@@ -13,6 +13,8 @@ import Contact from "./components/views/contactUs/contact";
 import Footer from "./components/Footer";
 import AddToCardMain from "./components/views/addCart/AddToCardMain";
 import Login from "./components/adminLogin/Login"
+import ReqBook from "./components/views/requestBook/mainReqBook";
+import TestPay from "./components/views/payment/paymentBook";
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
           <Switch>
               <Route path="/addCart" component={AddToCardMain}></Route>
               <Route path="/Cont" component={Contact}></Route>
+              <Route path="/ReqBook" component={ReqBook}></Route>
+              <Route path="/Payment" component={TestPay}></Route>
               <Route path="/footer" component={Footer}></Route>
               <Route path="/login" component={Login}></Route>
           </Switch>
