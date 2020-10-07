@@ -16,7 +16,7 @@ class Navigation extends Component {
 
                         </ReactBootstrap.Nav>
                         <ReactBootstrap.Nav>
-                            <ReactBootstrap.Nav.Link href="#deets">Login</ReactBootstrap.Nav.Link>
+                            <ReactBootstrap.Nav.Link href="/Login">Login</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link eventKey={2} href="#memes">
                                 Register
                             </ReactBootstrap.Nav.Link>
