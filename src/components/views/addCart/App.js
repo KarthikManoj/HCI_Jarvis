@@ -4,7 +4,7 @@ import Products from "./Products"
 import Filter from "./Filter";
 import Cart from "./Cart";
 import  "./index.css"
-import Footer from "../../Footer";
+// import Footer from "../../Footer";
 
 class App extends React.Component {
     constructor() {
