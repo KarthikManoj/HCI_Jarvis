@@ -10,7 +10,7 @@ class Navigation extends Component {
                     <ReactBootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <ReactBootstrap.Navbar.Collapse id="responsive-navbar-nav">
                         <ReactBootstrap.Nav className="mr-auto">
-                            <ReactBootstrap.Nav.Link href="#features">Books</ReactBootstrap.Nav.Link>
+                            <ReactBootstrap.Nav.Link href="/books">Books</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/addCart">Add to Cart</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/Cont">Contact US</ReactBootstrap.Nav.Link>
 

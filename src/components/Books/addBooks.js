@@ -1,46 +1,35 @@
 import React from 'react';
 import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
-const Example = (props) => {
+const Books = (props) => {
   return (
     <Form>
       <FormGroup row>
-        <Label for="exampleEmail" sm={2}>Email</Label>
+        <Label for="booksEmail" sm={2}>Email</Label>
         <Col sm={10}>
-          <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
+          <Input type="email" name="email" id="booksEmail" placeholder="with a placeholder" />
         </Col>
       </FormGroup>
       <FormGroup row>
-        <Label for="examplePassword" sm={2}>Password</Label>
+        <Label for="booksPassword" sm={2}>Password</Label>
         <Col sm={10}>
-          <Input type="password" name="password" id="examplePassword" placeholder="password placeholder" />
+          <Input type="password" name="password" id="booksPassword" placeholder="password" />
+        </Col>
+      </FormGroup>
+      
+      <FormGroup row>
+        <Label for="booksSelectMulti" sm={2}>Select Multiple</Label>
+      </FormGroup>
+      <FormGroup row>
+        <Label for="booksText" sm={2}>Text Area</Label>
+        <Col sm={10}>
+          <Input type="textarea" name="text" id="booksText" />
         </Col>
       </FormGroup>
       <FormGroup row>
-        <Label for="exampleSelect" sm={2}>Select</Label>
+        <Label for="booksFile" sm={2}>File</Label>
         <Col sm={10}>
-          <Input type="select" name="select" id="exampleSelect">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </Input>
-        </Col>
-      </FormGroup>
-      <FormGroup row>
-        <Label for="exampleSelectMulti" sm={2}>Select Multiple</Label>
-      </FormGroup>
-      <FormGroup row>
-        <Label for="exampleText" sm={2}>Text Area</Label>
-        <Col sm={10}>
-          <Input type="textarea" name="text" id="exampleText" />
-        </Col>
-      </FormGroup>
-      <FormGroup row>
-        <Label for="exampleFile" sm={2}>File</Label>
-        <Col sm={10}>
-          <Input type="file" name="file" id="exampleFile" />
+          <Input type="file" name="file" id="booksFile" />
           <FormText color="muted">
           </FormText>
         </Col>
@@ -54,4 +43,4 @@ const Example = (props) => {
   );
 }
 
-export default Example;
+export default Books;
