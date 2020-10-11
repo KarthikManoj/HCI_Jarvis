@@ -9,18 +9,14 @@ class Navigation extends Component {
                     <ReactBootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <ReactBootstrap.Navbar.Collapse id="responsive-navbar-nav">
                         <ReactBootstrap.Nav className="mr-auto">
-                            <ReactBootstrap.Nav.Link href="/books">Home</ReactBootstrap.Nav.Link>
+                            <ReactBootstrap.Nav.Link href="/Homepage">Home</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/books">Books</ReactBootstrap.Nav.Link>
-                            <ReactBootstrap.Nav.Link href="">Catergory</ReactBootstrap.Nav.Link>
-                            <ReactBootstrap.Nav.Link href="/addCart">Add to Cart</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/Cont">Contact US</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/Payment">Pay Test</ReactBootstrap.Nav.Link>
                         </ReactBootstrap.Nav>
                         <ReactBootstrap.Nav>
-                            <ReactBootstrap.Nav.Link href="/Login">Login</ReactBootstrap.Nav.Link>
-                            <ReactBootstrap.Nav.Link eventKey={2} href="#memes">Register</ReactBootstrap.Nav.Link>
+                           <ReactBootstrap.Nav.Link eventKey={2} href="#memes">Register</ReactBootstrap.Nav.Link>
                         </ReactBootstrap.Nav>
-
                     </ReactBootstrap.Navbar.Collapse>
                 </ReactBootstrap.Navbar>
             </div>

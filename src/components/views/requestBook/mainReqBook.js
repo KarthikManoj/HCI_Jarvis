@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Book from "./reqBook"
-// import Footer from "../../Footer"
 import {Carousel} from "react-bootstrap";
 
 import {Wave} from "react-animated-text";
@@ -152,7 +151,7 @@ class MainReqBook extends Component {
  </div>
 
         <br/>
-                {/* <Footer/> */}
+               
 
             </div>
 

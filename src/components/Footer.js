@@ -31,7 +31,7 @@ class Footer extends Component {
                 <div class="col-sm-3">
                   <ul>
                   <li className="list-unstyled">
-                      <a href="#">Admin Login</a>
+                      <a href="/Login">Admin Login</a>
                     </li>
                   </ul>
                 </div>
