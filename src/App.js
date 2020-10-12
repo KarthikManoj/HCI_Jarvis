@@ -23,9 +23,10 @@ import Form from './components/newLogin/Form';
 function App() {
   return (
       <BrowserRouter>
+
         <Mela />
         <Navigation />
-          
+
             <Switch>
                 <Route path="/Homepage" component={Homepage}></Route>
                 <Route path="/addCart" component={AddToCardMain}></Route>
