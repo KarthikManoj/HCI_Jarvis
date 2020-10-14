@@ -25,9 +25,10 @@ import ViewBooks from './components/Books/viewBooks';
 function App() {
   return (
       <BrowserRouter>
+
         <Mela />
         <Navigation />
-          
+
             <Switch>
                 <Route path="/Homepage" component={Homepage}></Route>
                 <Route path="/addCart" component={AddToCardMain}></Route>
