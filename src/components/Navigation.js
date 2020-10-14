@@ -11,6 +11,8 @@ class Navigation extends Component {
                         <ReactBootstrap.Nav className="mr-auto">
                             <ReactBootstrap.Nav.Link href="/Homepage">Home</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/books">Books</ReactBootstrap.Nav.Link>
+                            <ReactBootstrap.Nav.Link href="/ViewBooks">View Books</ReactBootstrap.Nav.Link>
+                            <ReactBootstrap.Nav.Link href="/Catergory">Catergory</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/Cont">Contact US</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/Payment">Pay Test</ReactBootstrap.Nav.Link>
                         </ReactBootstrap.Nav>

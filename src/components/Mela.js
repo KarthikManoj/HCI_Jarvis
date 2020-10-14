@@ -10,13 +10,16 @@ export default class Mela extends Component {
             <div class="row">
                 <div class="col-sm-3">
                     <div className="row">
+                    <a href="/Homepage">
                         <img 
                         src={logo}
                         alt="logo"
                         width="120" 
                         height="70"
                         />
+                        </a>
                     </div>
+                    
                 </div>
                 <div class="col-sm-8">
 
@@ -35,7 +38,7 @@ export default class Mela extends Component {
                     <br />
                     <br />
                     <br />
-                    <Button color="dark" size="lg" href="/form" active>
+                    <Button color="dark" size="lg" href="/loginf" active>
                             Login
                     </Button>
                 </div>

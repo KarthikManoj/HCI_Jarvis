@@ -15,6 +15,8 @@ import ReqBook from "./components/views/requestBook/mainReqBook";
 import TestPay from "./components/payment/paymentBook";
 import Mela from "./components/Mela";
 import Form from './components/newLogin/Form';
+import Catergory from './components/Catergory';
+import ViewBooks from './components/Books/viewBooks';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -37,6 +39,8 @@ function App() {
                 <Route path="/books" component={Books}></Route>
                 <Route path="/mela" component={Mela}></Route>
                 <Route path="/form" component={Form}></Route>
+                <Route path="/Catergory" component={Catergory}></Route>
+                <Route path="/ViewBooks" component={ViewBooks}></Route>
             </Switch>
 
         <Footer />
