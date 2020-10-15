@@ -1,14 +1,10 @@
 import React from 'react';
 import './App.css';
-
-
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Lines } from 'react-preloaders';
 
 import Homepage from './components/Homepage';
 import Navigation from "./components/Navigation";
-
-// import addCart from "./components/views/addCart/App"
-//import MainSearch from "./components/views/SearchByCategory/MainSearch"
 import Contact from "./components/views/contactUs/contact";
 import Footer from "./components/Footer";
 import AddToCardMain from "./components/views/addCart/AddToCardMain";
@@ -20,17 +16,19 @@ import Mela from "./components/Mela";
 import Form from './components/newLogin/Form';
 import Catergory from './components/Catergory';
 import ViewBooks from './components/Books/viewBooks';
-
+import Dashboard from './components/adminDashboard/Dashboard';
+import User from './components/userProfile';
+import Book from './components/Books/Books';
+import FinalPay from './components/payment/WrapPayment_Main';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 
 
 function App() {
   return (
       <BrowserRouter>
-
+        {/* <Lines /> */}
         <Mela />
         <Navigation />
 
@@ -47,12 +45,16 @@ function App() {
                 <Route path="/form" component={Form}></Route>
                 <Route path="/Catergory" component={Catergory}></Route>
                 <Route path="/ViewBooks" component={ViewBooks}></Route>
+                <Route path="/dashBoard" component={Dashboard}></Route>
+                <Route path="/user" component={User}></Route>
+                <Route path="/bdet" component={Book}></Route>
                 <Route path="/addCart" component={AddToCardMain}></Route>
-
                 <Route path="/Cont" component={Contact}></Route>
 
-            </Switch>
 
+                <Route path="/payFin" component={FinalPay}></Route>
+            </Switch>
+<br/>
         <Footer />
       </BrowserRouter>
 

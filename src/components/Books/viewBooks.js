@@ -1,11 +1,17 @@
 import React, { Component } from 'react'
+import Catergory from '../Catergory.js';
+import Home from '../Home.js';
 
-export default class viewBooks extends Component {
+class viewBooks extends Component {
     render() {
         return (
             <div>
-                {/* <Catergory /> */}
+                <Catergory />
+                <br />
+                <Home />
             </div>
         )
     }
 }
+
+export default viewBooks;

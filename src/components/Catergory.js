@@ -25,8 +25,6 @@ class Catergory extends Component {
             justifyContent: "center",
             alignItems: "center"
         }}>
-
-            {/* <ReactRoundedImage image={MyPhoto} /> */}
             
             <a href="/addCart">
                 <ReactRoundedImage
@@ -135,17 +133,6 @@ class Catergory extends Component {
             <CardTitle>Biography</CardTitle>
             </div>
             </a>
-
-            {/* <ReactRoundedImage
-            image={MyPhoto}
-            roundedColor="#66A5CC"
-            imageWidth="120"
-            imageHeight="120"
-            roundedSize="8"
-            borderRadius="15"
-            />
-
-            <ReactRoundedImage image={MyPhoto} roundedSize="0" imageWidth="110" imageHeight="110" /> */}
         </div>
       </div>
     );

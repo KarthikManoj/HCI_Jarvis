@@ -38,7 +38,7 @@ export default class Mela extends Component {
                     <br />
                     <br />
                     <br />
-                    <Button color="dark" size="lg" href="/loginf" active>
+                    <Button color="dark" size="lg" href="/form" active>
                             Login
                     </Button>
                 </div>
