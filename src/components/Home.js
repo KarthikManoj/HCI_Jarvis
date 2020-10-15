@@ -41,12 +41,15 @@ export default class Home extends Component {
                 
                     <Card>
                     <CardActionArea>
+                    <a href="/bdet">
                         <CardImg  
                         src={obama}
                         alt="Book"
                         height="210"
                         
+                        
                     />
+                    </a>
                     </CardActionArea>
                         <CardBody>
                             <CardTitle>Becoming Michelle Obama</CardTitle>

@@ -18,7 +18,7 @@ import Catergory from './components/Catergory';
 import ViewBooks from './components/Books/viewBooks';
 import Dashboard from './components/adminDashboard/Dashboard';
 import User from './components/userProfile';
-
+import Book from './components/Books/Books';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -45,6 +45,7 @@ function App() {
                 <Route path="/ViewBooks" component={ViewBooks}></Route>
                 <Route path="/dashBoard" component={Dashboard}></Route>
                 <Route path="/user" component={User}></Route>
+                <Route path="/bdet" component={Book}></Route>
             </Switch>
 
         <Footer />
