@@ -1,9 +1,13 @@
 import React from 'react';
-import data from "./data.json"
-import Products from "./Products"
+import data from "./data.json";
+import Products from "./Products";
 import Filter from "./Filter";
 import Cart from "./Cart";
-import  "./index.css"
+import  "./index.css";
+
+
+
+// import Footer from "../../Footer";
 
 
 class App extends React.Component {

@@ -1,4 +1,3 @@
-
 import "./Footer.css";
 
 import React, {Component} from 'react';
@@ -10,30 +9,31 @@ class Footer extends Component {
           <div className="main-footer">
             <div className="container">
               <div className="row">
-
-                <div className="col">
-                  <h4>International Books</h4>
-                  <h7 className="list-unstyled">
-                    <li>123546789</li>
-                    <li>Julian Place</li>
-                    <li>Sarankaara road</li>
-                  </h7>
+                <div class="col-sm-3">
+                    <ul>
+                    <li className="list-unstyled">
+                      <a href="#">FAQ</a>
+                    </li>
+                    <li className="list-unstyled">
+                      <a href="#">Feedback</a>
+                    </li>
+                    <li className="list-unstyled">
+                      <a href="/ReqBook">Request Book</a>
+                    </li>
+                    <li className="list-unstyled">
+                      <a href="#">Track Order</a>
+                    </li>
+                    <li className="list-unstyled">
+                      <a href="#">Terms & Condtions</a>
+                    </li>
+                  </ul>
                 </div>
-
-                <div className="col">
-                  <ui className="list-unstyled">
-                    <li>Feedback</li>
-                    <li>Track Order</li>
-                    <li>Contact Us</li>
-                  </ui>
-                </div>
-
-                <div className="col">
-                  <ui className="list-unstyled">
-                    <li>Terms and Conditions</li>
-                    <li>Privacy Policy</li>
-                    <li>Admin Login</li>
-                  </ui>
+                <div class="col-sm-3">
+                  <ul>
+                  <li className="list-unstyled">
+                      <a href="/Login">Admin Login</a>
+                    </li>
+                  </ul>
                 </div>
               </div>
               <hr />

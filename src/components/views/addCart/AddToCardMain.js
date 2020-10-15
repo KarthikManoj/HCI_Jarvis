@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import App from "./App";
-import Footer from "../../Footer";
+
 
 class AddToCardMain extends Component {
     render() {
@@ -8,7 +8,7 @@ class AddToCardMain extends Component {
             <div>
                <App/>
 
-               <Footer/>
+               
             </div>
         );
     }

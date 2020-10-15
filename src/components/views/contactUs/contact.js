@@ -1,16 +1,19 @@
 import React, {Component} from 'react';
 import {Carousel} from "react-bootstrap";
+import {Map, InfoWindow,Marker, GoogleApiWrapper} from "google-maps-react";
 
 import './form.css';
 import swal from "sweetalert";
 import pic1 from '../../Images/pic1.jpg';
-//import Wave from "react-animated-text";
+import pic2 from '../../Images/pic2.jpg';
+import {Wave} from "react-animated-text";
 
 class Contact extends React.Component {
     render()
     {
         return(
             <h1>Contact US page</h1>
+
 
 
         );
@@ -89,25 +92,56 @@ class Contact extends React.Component {
 
             <div className="nSlide">
                 <br/>
-                <br/>
-                <br/>
+
 
                 <Carousel>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
                         src={pic1}
-                        alt="First Slide"
-                        />
+                        alt="First Slide"/>
                         <Carousel.Caption>
-                            {/*<h1><Wave text='Welcome to HELP EVERYONE' effect="stretch" effectChange={2.2} />*/}
-                            {/*</h1>*/}
-
+                            <h2><Wave text='SCHEDULE A CALL WITH US! ' effect="stretch" effectChange={2.2}
+                            /></h2>
                         </Carousel.Caption>
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={pic2}
+                            alt="Second Slide"/>
+                        <Carousel.Caption>
+                            <h2><Wave text='GET IN TOUCH! ' effect="stretch" effectChange={2.2}
+                            /></h2>
+                        </Carousel.Caption>
+
                     </Carousel.Item>
 
                 </Carousel>
             </div>
+            <br/>
+            <div>
+                <h2>hey</h2>
+                <br/>
+
+                <Map google={this.props.google} zoom={14}>
+
+                    <Marker onClick={this.onMarkerClick}
+                            name={'Sri Lanka'} />
+
+                    <InfoWindow onClose={this.onInfoWindowClose}>
+
+                    </InfoWindow>
+                </Map>
+
+                {/*<Map google={this.props.google}>
+                    <Marker onMouseover={this.onMouseoverMarker}
+                            name={'Current location'} />
+                </Map>*/}
+
+            </div>
+
 
 
         </div>
@@ -117,6 +151,8 @@ class Contact extends React.Component {
 
 
         );
+
+
 
 
     }
@@ -137,7 +173,10 @@ nextSlie(){
         return(
             <div>
                 <p>ghjfhjashf jhjhajfhja hjsahfkhask jahkahs khkjahksh </p>
+
+
             </div>
+
         )
 }
 
@@ -147,6 +186,7 @@ nextSlie(){
    render() {
 
        return this.state.display ? this.displayData() : this.displayForm();
+       //this.nextSlie();
 
    }
 
@@ -158,5 +198,9 @@ nextSlie(){
 
 
 
-export default Contact;
+//export default Contact;
+
+export default GoogleApiWrapper({
+    apiKey: ("AIzaSyBBxeifKahfCz7iiUkhxV41AjivYe89fEY")
+})(Contact)
 
