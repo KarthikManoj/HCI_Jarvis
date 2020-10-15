@@ -10,7 +10,7 @@
     },
     {
       "_id": "dress2",
-      "image": "/images/image7.jpg",
+      "image": "/images/image8.jpg",
       "title": "Electronics",
       "description": "This Electronic Books will drive you on the right path, to gain practical experience as you start designing your own electronic crafts. It serves as an excellent reference to unchain the mysteries of electronic circuits..",
       "availableSizes": ["X", "M", "L"],
@@ -18,7 +18,7 @@
     },
     {
       "_id": "dress3",
-      "image": "/images/image3.jpg",
+      "image": "/images/image10.jpg",
       "title": "The HANDMAID'S tale",
       "description": "The Handmaid's Tale is a dystopian novel by Canadian author Margaret Atwood, published in 1985. It is set in a near-future New England, in a totalitarian state, known as Gilead, that has overthrown the United States government..",
       "availableSizes": ["X", "M", "L"],
@@ -35,7 +35,7 @@
     {
       "_id": "dress5",
       "image": "/images/image5.jpg",
-      "title": "Mathematics",
+        "title": "Mathematics",
       "description": "For many of the most important branches of mathematics, we’ve provided what we consider being the best math books for the subject at hand. We aimed for a list of titles that were either introductory in nature or that fall into the category of “must-have” math reference books..",
       "availableSizes": ["X", "L", "XL"],
       "price": 10.9

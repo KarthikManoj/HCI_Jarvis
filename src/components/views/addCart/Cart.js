@@ -22,7 +22,9 @@ export default class Cart extends Component {
             address: this.state.address,
             cartItems: this.state.cartItems,
         };
-        this.props.createOrder(order);
+
+        console.log(order);
+
 }
     render() {
         const {cartItems} = this.props;
@@ -49,6 +51,7 @@ export default class Cart extends Component {
                                             <button className="button" onClick={()=>this.props.removeFromCart(item)}>
                                                 Remove
                                             </button>
+                                            -----------------------------------------------------------
                                         </div>
 
                                     </div>
