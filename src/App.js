@@ -19,8 +19,10 @@ import ViewBooks from './components/Books/viewBooks';
 import Dashboard from './components/adminDashboard/Dashboard';
 import User from './components/userProfile';
 import Book from './components/Books/Books';
+import FinalPay from './components/payment/WrapPayment_Main';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
@@ -50,8 +52,9 @@ function App() {
                 <Route path="/Cont" component={Contact}></Route>
 
 
+                <Route path="/payFin" component={FinalPay}></Route>
             </Switch>
-
+<br/>
         <Footer />
       </BrowserRouter>
 
