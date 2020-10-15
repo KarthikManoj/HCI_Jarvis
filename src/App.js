@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
-
-
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Lines } from 'react-preloaders';
 
 import Homepage from './components/Homepage';
 import Navigation from "./components/Navigation";
@@ -17,6 +16,8 @@ import Mela from "./components/Mela";
 import Form from './components/newLogin/Form';
 import Catergory from './components/Catergory';
 import ViewBooks from './components/Books/viewBooks';
+import Dashboard from './components/adminDashboard/Dashboard';
+import User from './components/userProfile';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -25,7 +26,7 @@ import ViewBooks from './components/Books/viewBooks';
 function App() {
   return (
       <BrowserRouter>
-
+<Lines />
         <Mela />
         <Navigation />
 
@@ -42,6 +43,8 @@ function App() {
                 <Route path="/form" component={Form}></Route>
                 <Route path="/Catergory" component={Catergory}></Route>
                 <Route path="/ViewBooks" component={ViewBooks}></Route>
+                <Route path="/dashBoard" component={Dashboard}></Route>
+                <Route path="/user" component={User}></Route>
             </Switch>
 
         <Footer />

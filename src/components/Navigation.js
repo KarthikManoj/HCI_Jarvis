@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import * as ReactBootstrap from "react-bootstrap";
+import CircleIcon from '@material-ui/icons/AccountCircle';
 
 class Navigation extends Component {
     render() {
@@ -17,7 +18,7 @@ class Navigation extends Component {
                             <ReactBootstrap.Nav.Link href="/Payment">Pay Test</ReactBootstrap.Nav.Link>
                         </ReactBootstrap.Nav>
                         <ReactBootstrap.Nav>
-                           <ReactBootstrap.Nav.Link eventKey={2} href="#memes">Register</ReactBootstrap.Nav.Link>
+                           <ReactBootstrap.Nav.Link eventKey={3} href="/user"><CircleIcon /></ReactBootstrap.Nav.Link>
                         </ReactBootstrap.Nav>
                     </ReactBootstrap.Navbar.Collapse>
                 </ReactBootstrap.Navbar>

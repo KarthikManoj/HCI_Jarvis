@@ -1,45 +1,43 @@
 import React from 'react';
-import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, } from 'reactstrap';
 
 const Books = (props) => {
   return (
-    <Form>
-      <FormGroup row>
-        <Label for="booksEmail" sm={2}>Email</Label>
-        <Col sm={10}>
-          <Input type="email" name="email" id="booksEmail" placeholder="with a placeholder" />
-        </Col>
+   <div style={{
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    color:"#ffffff"
+}}>
+
+     <Form>
+     
+      <FormGroup>
+        <Label for="bookName">Book Name</Label>
+        <Input type="textarea" name="text" id="bookName" placeholder="Name of the Book" required/>
       </FormGroup>
-      <FormGroup row>
-        <Label for="booksPassword" sm={2}>Password</Label>
-        <Col sm={10}>
-          <Input type="password" name="password" id="booksPassword" placeholder="password" />
-        </Col>
+      <FormGroup>
+        <Label for="bookAuthor">Book Author</Label>
+        <Input type="text" name="text" id="bookAuthor" placeholder="Name of the Author" required />
+      </FormGroup>
+      <FormGroup>
+        <Label for="bookIsbn">Book ISBN</Label>
+        <Input type="text" name="number" id="bookIsbn" placeholder="Book ISBN" />
+      </FormGroup>
+      <FormGroup>
+        <Label for="exampleText">Book Description</Label>
+        <Input type="textarea" name="text" id="desc" />
+      </FormGroup>
+      <FormGroup>
+        <Label for="exampleFile">File</Label>
+        <Input type="file" name="file" id="exampleFile" />
       </FormGroup>
       
-      <FormGroup row>
-        <Label for="booksSelectMulti" sm={2}>Select Multiple</Label>
-      </FormGroup>
-      <FormGroup row>
-        <Label for="booksText" sm={2}>Text Area</Label>
-        <Col sm={10}>
-          <Input type="textarea" name="text" id="booksText" />
-        </Col>
-      </FormGroup>
-      <FormGroup row>
-        <Label for="booksFile" sm={2}>File</Label>
-        <Col sm={10}>
-          <Input type="file" name="file" id="booksFile" />
-          <FormText color="muted">
-          </FormText>
-        </Col>
-      </FormGroup>
-      <FormGroup check row>
-        <Col sm={{ size: 10, offset: 2 }}>
-          <Button>Submit</Button>
-        </Col>
-      </FormGroup>
+      
+      <Button>Submit</Button>
+      
     </Form>
+   </div>
   );
 }
 
