@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 
 html {
   font-size: 62.5%;
@@ -26,6 +26,7 @@ textarea {
     "footer";
   grid-template-rows: 5rem 1fr 5rem;
   grid-template-columns: 1fr;
+  border:1px ;
   height: 100%;
 }
 a {
@@ -81,44 +82,66 @@ footer {
   list-style-type: none;
 }
 .products li {
+  background-color:  #f5cba7;
   flex: 0 1 29rem;
   height: 47rem;
   padding: 1rem;
+
 }
 .product {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  width: 100%;
+  border: 2px solid #555;
 }
-.product img {
-  max-width: 37rem;
-  max-height: 37rem;
+.check{
+  margin-left: 40px;
+  margin-top: 10px;
+
 }
+.check1{
+  font-size: 18px;
+  color: #c0392b ;
+ }
+
+.check3{
+  margin-top: 15px;
+  justify-content: center;
+
+}
+
+
 .product-price {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #c0392b ;
 }
 .product-price div,
 .product-price button {
   text-align: center;
   flex: 1;
 }
+
 .product-price div {
-  font-size: 2rem;
+  font-size: 30px;
 }
+
 .button {
   padding: 1rem;
   border: 0.1rem #c0c0c0 solid;
-  background-color: #f0f0f0;
+  background-color: #2e86c1   ;
   cursor: pointer;
+  background-color: #2e86c1 ;
 }
 .button:hover {
   border: 0.1rem #808080 solid;
 }
-.button.primary {
-  background-color: #f0c040;
+.button primary {
+  vertical-align: top;
+
 }
 /* Filter */
 .filter {
@@ -136,6 +159,7 @@ footer {
   padding: 1rem;
   margin: 1rem;
   display: flex;
+  background:   #abb2b9  ;
 }
 .cart-header {
   border-bottom: 0.1rem #c0c0c0 solid;
@@ -197,21 +221,36 @@ input {
   flex-wrap: wrap;
   justify-content: space-between;
   max-height: 96vh;
+
 }
 .product-details img {
   max-height: 100vh;
-  max-width: 46rem;
+  max-width: 50rem;
   margin: 0 auto;
 }
 .product-details-description {
   flex: 1 1;
   margin: 1rem;
 }
-.close-modal {
+
+
+.close-modal{
+  cursor: pointer;
   position: absolute;
-  right: 1rem;
-  top: 2.5rem;
-  z-index: 1000;
+  top: 0%;
+  right: 0%;
+  padding: 10px 10px;
+  transform: translate(0%, -50%);
+}
+
+.close-modal:hover {
+  background: #c3c8f7;
+}
+
+.modal{
+  background-color:#d6d8e8 ;
+height: 100%;
+  width: 100%;
 }
 
 /* Order Details */

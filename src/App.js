@@ -19,14 +19,14 @@ import ViewBooks from './components/Books/viewBooks';
 import Dashboard from './components/adminDashboard/Dashboard';
 import User from './components/userProfile';
 import Book from './components/Books/Books';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
       <BrowserRouter>
-<Lines />
+        {/* <Lines /> */}
         <Mela />
         <Navigation />
 
@@ -46,6 +46,10 @@ function App() {
                 <Route path="/dashBoard" component={Dashboard}></Route>
                 <Route path="/user" component={User}></Route>
                 <Route path="/bdet" component={Book}></Route>
+                <Route path="/addCart" component={AddToCardMain}></Route>
+                <Route path="/Cont" component={Contact}></Route>
+
+
             </Switch>
 
         <Footer />

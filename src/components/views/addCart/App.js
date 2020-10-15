@@ -1,10 +1,14 @@
 import React from 'react';
-import data from "./data.json"
-import Products from "./Products"
+import data from "./data.json";
+import Products from "./Products";
 import Filter from "./Filter";
 import Cart from "./Cart";
-import  "./index.css"
+import  "./index.css";
+
+
+
 // import Footer from "../../Footer";
+
 
 class App extends React.Component {
     constructor() {
@@ -85,6 +89,9 @@ class App extends React.Component {
     };
     render() {
         return (
+
+
+
             <div className="grid-container">
 
                 <main>
@@ -92,17 +99,20 @@ class App extends React.Component {
                         <div className="main">
 
                             <Products products={this.state.products} addToCart={this.addToCart}>  </Products>
+
                         </div>
                         <div className="sidebar">
                             <Cart cartItems={this.state.cartItems}
                                   removeFromCart={this.removeFromCart}
-                                  createOrder={this.createOrder}
+                                  createOrder={this.createOrder}createOrder
                             />
+
                         </div>
                     </div>
                 </main>
 
             </div>
+
         );
     }
 }
