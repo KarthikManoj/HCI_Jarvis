@@ -2,51 +2,52 @@
   "products": [
     {
       "_id": "dress1",
-      "image": "/images/image7.jpg",
-      "title": "Unesco Science Report 2010",
-      "description": "Written by a team of independent experts who are each covering the country or region from which they hail, the UNESCO Science Report 2010 analyses the trends and developments that have shaped scientific research, innovation and higher education over the past five years, including the impact of the current global.",
+      "image": "/images/bio4.jpg",
+      "title": "A.R.Rahman biography",
+      "description": "Allahrakha Rahman, known professionally as A. R. Rahman, is an Indian composer, singer and music producer who works predominantly in Tamil and Hindi movies. In 2010, the Indian government awarded him the Padma Bhushan, the nation's third-highest civilian award.",
       "availableSizes": ["X", "L", "XL", "XXL"],
       "price": 29.9
     },
     {
       "_id": "dress2",
-      "image": "/images/image8.jpg",
-      "title": "Electronics",
-      "description": "This Electronic Books will drive you on the right path, to gain practical experience as you start designing your own electronic crafts. It serves as an excellent reference to unchain the mysteries of electronic circuits..",
+      "image": "/images/business3.jpg",
+      "title": "Business Adventure",
+      "description": "Business Adventures remains the best business book I’ve ever read.” —Bill Gates, The Wall Street Journal What do the $350 million Ford Motor Company disaster known as the Edsel, the fast and incredible rise of Xerox, and the unbelievable scandals at General Electric and Texas Gulf Sulphur have in common? ...",
       "availableSizes": ["X", "M", "L"],
       "price": 18.9
     },
     {
       "_id": "dress3",
-      "image": "/images/image10.jpg",
-      "title": "The HANDMAID'S tale",
-      "description": "The Handmaid's Tale is a dystopian novel by Canadian author Margaret Atwood, published in 1985. It is set in a near-future New England, in a totalitarian state, known as Gilead, that has overthrown the United States government..",
+      "image": "/images/bio10.webp",
+      "title": "Adolf Hitler biography",
+      "description": "Adolf Hitler was a German politician and leader of the Nazi Party. He rose to power as the chancellor of Germany in 1933 and then as Führer in 1934. During his dictatorship from 1933 to 1945, he initiated World War II in Europe by invading Poland on 1 September 1939",
       "availableSizes": ["X", "M", "L"],
       "price": 14.9
     },
     {
       "_id": "dress4",
-      "image": "/images/image4.jpg",
-      "title": "PHP,MySQL & JavaScript",
-      "description": "A guide to PHP essentials and the basics of object-oriented programming. Learn how to master MySQL, from database structure to complex queries; create web pages with PHP and MySQL by integrating forms.",
+      "image": "/images/business4.jpg",
+      "title": "Screw business as usual",
+      "description": "In 1968, a young man named Richard Branson began an improbable journey. From opening a tiny record store, called Virgin Records, on the second floor of a building in London, Richard went on to become the head of one of the world’s most universally recognized and respected groups of companies. ..",
       "availableSizes": ["XL"],
       "price": 25.9
     },
     {
       "_id": "dress5",
-      "image": "/images/image5.jpg",
-        "title": "Mathematics",
-      "description": "For many of the most important branches of mathematics, we’ve provided what we consider being the best math books for the subject at hand. We aimed for a list of titles that were either introductory in nature or that fall into the category of “must-have” math reference books..",
+      "image": "/images/business12.jpg",
+        "title": "World famous",
+      "description": "For starters, he encourages his audiences to use their Smart Phones to text colleagues about what they’re hearing.  David delights audiences with humor, wit and charm as he demonstrates the unthinkable — that you’re NOT in the business YOU THOUGHT you were!  ",
       "availableSizes": ["X", "L", "XL"],
       "price": 10.9
     },
     {
       "_id": "dress6",
-      "image": "/images/image6.jpg",
-      "title": "Asian Technology Innovation",
-      "description": "The economic crises in Asia at the turn of the millennium changed the innovation and business production systems of China, Malaysia, Japan, Singapore, South Korea, Thailand, and Taiwan. This investigation follows several different industries, including semiconductors, automobiles, and hard disk drives. It explores the approaches that Asian nations have taken to building a strong technological and economic base for their respective industries from technonationalism to technoglobalism. It asks if the Asian economic miracle is over, or whether these countries are reinventing their economies..",
+      "image": "/images/History7.jpg",
+      "title": "World History",
+      "description": "World history or global history as a field of historical study examines history from a global perspective. It emerged centuries ago; leading practitioners have included Voltaire, Hegel, Karl Marx and Arnold J. Toynbee. The field became much more active in the late 20th century.",
       "availableSizes": ["XL", "XXL"],
       "price": 49.9
     }
+
   ]
 }

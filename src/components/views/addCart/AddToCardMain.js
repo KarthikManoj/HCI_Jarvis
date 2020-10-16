@@ -7,8 +7,6 @@ class AddToCardMain extends Component {
         return (
             <div>
                <App/>
-
-               
             </div>
         );
     }
