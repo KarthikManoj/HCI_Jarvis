@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import "./finPay.css";
 import $ from 'jquery';
+import swal from "sweetalert";
 
 class FinalPayment extends Component {
     componentDidMount() {
@@ -50,6 +51,9 @@ class FinalPayment extends Component {
             /*$(".submit").click(function(){
 
             });*/
+            $(".btn-red").click(function() {
+                swal("Good job!", "Payment Successfull", "success");
+            });
 
         });
     }

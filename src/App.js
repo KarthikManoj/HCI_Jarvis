@@ -20,7 +20,7 @@ import Dashboard from './components/adminDashboard/Dashboard';
 import User from './components/userProfile';
 import Book from './components/Books/Books';
 import FinalPay from './components/payment/WrapPayment_Main';
-<<<<<<< HEAD
+
 import AddCommentsMain from './components/views/AddComments/AddCommentsMain';
 import FeedbackMain from './components/views/FeedBack/FeedbackMain';
 import Main2 from './components/views/FAQ_2/Main2';
@@ -33,7 +33,7 @@ import BookM from './components/views/BookReviewNow/BookM';
 
 
 
-=======
+
 import app from './components/views/crud/App';
 import slide from "./components/views/addCart/slideshow"
 import cart from "./components/views/addCart/App"
@@ -44,7 +44,7 @@ import bio from "./components/views/SearchByCategory/CategoryBio/App"
 import history from "./components/views/SearchByCategory/CategoryHistory2/App"
 import sic from "./components/views/SearchByCategory/CategorySci/App"
 import searchName from "./components/views/SearchByName/index"
->>>>>>> 268225a26bd836872f54aded3a5e7c3eef42e506
+
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -74,7 +74,7 @@ function App() {
                 <Route path="/bdet" component={Book}></Route>
                 <Route path="/addCart" component={AddToCardMain}></Route>
                 <Route path="/Cont" component={Contact}></Route>
-<<<<<<< HEAD
+
                 <Route path="/Comments" component={AddCommentsMain}></Route>
                 <Route path="/Feedback" component={FeedbackMain}></Route>
                 <Route path="/FAQ" component={Main2}></Route>
@@ -85,7 +85,7 @@ function App() {
                 
 
 
-=======
+
                 <Route path="/app" component={app}></Route>
                 <Route path="/slide" component={slide}></Route>
                 <Route path="/cart" component={cart}></Route>
@@ -96,7 +96,7 @@ function App() {
                 <Route path="/history" component={history}></Route>
                 <Route path="/sic" component={sic}></Route>
                 <Route path="/searchName" component={searchName}></Route>
->>>>>>> 268225a26bd836872f54aded3a5e7c3eef42e506
+
                 <Route path="/payFin" component={FinalPay}></Route>
             </Switch>
 <br/>

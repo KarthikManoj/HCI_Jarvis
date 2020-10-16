@@ -18,6 +18,9 @@ class WrapPaymentMain extends Component {
                 <Coupon/>
 
                 <DEmo/>
+                <br/>
+                <br/>
+                <br/>
                 <div className="pay_summary">
                 <Credit />
 
