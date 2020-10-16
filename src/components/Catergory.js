@@ -26,7 +26,7 @@ class Catergory extends Component {
             alignItems: "center"
         }}>
             
-            <a href="/addCart">
+            <a href="/romance">
                 <ReactRoundedImage
                 image={roman}
                 roundedColor=""
@@ -44,7 +44,7 @@ class Catergory extends Component {
                 </div>
             </a>
             
-            <a href="/addCart">
+            <a href="/novel">
             <ReactRoundedImage
             image={clip}
             roundedColor=""
@@ -62,7 +62,7 @@ class Catergory extends Component {
             </div>
             </a>
 
-            <a href="/addCart">
+            <a href="/business">
             <ReactRoundedImage
             image={tree}
             roundedColor=""
@@ -80,7 +80,7 @@ class Catergory extends Component {
             </div>
             </a>
             
-            <a href="/addCart">
+            <a href="/sic">
             <ReactRoundedImage
             image={sci}
             roundedColor=""
@@ -98,7 +98,7 @@ class Catergory extends Component {
             </div>
             </a>
 
-            <a href="/addCart">
+            <a href="/history">
             <ReactRoundedImage
             image={hist}
             roundedColor=""
@@ -116,7 +116,7 @@ class Catergory extends Component {
             </div>
             </a>
 
-            <a href="/addCart">
+            <a href="/bio">
             <ReactRoundedImage
             image={bio}
             roundedColor=""

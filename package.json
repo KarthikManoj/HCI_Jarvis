@@ -13,6 +13,7 @@
     "bootstrap": "^4.5.2",
     "classnames": "^2.2.6",
     "google-maps-react": "^2.0.6",
+    "mdbreact": "^4.27.0",
     "payform": "^1.4.0",
     "qj": "^2.0.0",
     "react": "^16.13.1",
