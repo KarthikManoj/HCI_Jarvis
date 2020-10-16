@@ -53,6 +53,7 @@ function App() {
                 <Route path="/dashBoard" component={Dashboard}></Route>
                 <Route path="/user" component={User}></Route>
                 <Route path="/bdet" component={Book}></Route>
+                
                 <Route path="/addCart" component={AddToCardMain}></Route>
                 <Route path="/Cont" component={Contact}></Route>
 

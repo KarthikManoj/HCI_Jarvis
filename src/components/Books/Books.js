@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Container, Row, Col, Card, CardImg,  CardDeck, CardTitle, CardText, 
-         CardSubtitle, CardBody  } from 'reactstrap';
+import { Container, Row, Col,Button, Card, CardImg,  CardDeck, CardTitle, CardText, 
+         CardSubtitle, CardBody, Input, } from 'reactstrap';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import Rating from '@material-ui/lab/Rating';
 import Box from '@material-ui/core/Box';
@@ -134,7 +134,7 @@ export default class Books extends Component {
                     <h2>People who liked this also liked !!!</h2>
                     <br />
                     <CardDeck>
-                        <Card>
+                        <Card >
                         <CardActionArea>
                         <a href="/bdet">
                             <CardImg  
@@ -144,6 +144,16 @@ export default class Books extends Component {
                         />
                         </a>
                         </CardActionArea>
+                        <CardBody>
+                            <CardTitle>Becoming </CardTitle>
+                            <CardSubtitle>Michelle Obama</CardSubtitle>
+                            <CardText>$18</CardText>
+                                <Box component="fieldset" borderColor="transparent">
+                                    <Rating name="read-only" value={3} readOnly />
+                                </Box>
+                            <Button>Add to Cart</Button>
+                            
+                        </CardBody>
                         </Card>
                         <Card>
                             <CardActionArea>
