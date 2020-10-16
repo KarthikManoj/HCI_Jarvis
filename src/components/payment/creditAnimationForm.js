@@ -1,49 +1,89 @@
-import React, {Component} from 'react';
+import React, {useState} from 'react';
+import Cardds from 'react-credit-cards'
 import 'react-credit-cards/es/styles-compiled.css';
-import Cards from 'react-credit-cards';
+import './creditAnimationStyle.css';
+import swal from "sweetalert";
+import $ from "jquery";
 
-class CreditAnimationForm extends Component {
-    state = {
-        cvc: '',
-        expiry: '',
-        focus: '',
-        name: '',
-        number: '',
-    };
+function App() {
+    const [number, setNumber] = useState('')
+    const [name,setName] =useState('')
+    const [expiry,setExpiry] =useState('')
+    const [cvc,setCvc] =useState('')
+    const [focus,setFocus] =useState('')
+    $(".submitcc").click(function() {
+        swal("Good job!", "Your card details saved successfully", "success");
+    });
 
-    handleInputFocus = (e) => {
-        this.setState({ focus: e.target.name });
-    }
 
-    handleInputChange = (e) => {
-        const { name, value } = e.target;
+    return (
+        <div className="creaditn">
+            <h1>Save your Card details Securely</h1>
+            <br/>
+            <Cardds
+                number={number}
+                name={name}
+                expiry={expiry}
+                cvc={cvc}
+                focued={focus}
+            />
+            <br/>
+            <br/>
 
-        this.setState({ [name]: value });
-    }
-
-    render() {
-        return (
-            <div id="PaymentForm">
-                <Cards
-                    cvc={this.state.cvc}
-                    expiry={this.state.expiry}
-                    focused={this.state.focus}
-                    name={this.state.name}
-                    number={this.state.number}
-                />
-                <form>
-                    <input
-                        type="tel"
-                        name="number"
-                        placeholder="Card Number"
-                        onChange={this.handleInputChange}
-                        onFocus={this.handleInputFocus}
+            <div className="formnadu">
+                <form className="cardani" >
+                    <input className="niroin"  type='tel'
+                           name='number'
+                           maxLength='16'
+                           required title='Enter '
+                           placeholder='Card Number'
+                           value={number}
+                           onChange={e => setNumber(e.target.value)}
+                           onFocus={e => setFocus(e.target.name)}
                     />
-                    ...
-                </form>
-            </div>
-        );
-    }
-}
 
-export default CreditAnimationForm;
+                    <input className="niroin" type='text'
+                           name='name'
+                           placeholder='Name'
+                           required title='Enter '
+                           value={name}
+                           onChange={e => setName(e.target.value)}
+                           onFocus={e => setFocus(e.target.name)}
+                    />
+
+                    <input className="niroin" type='text'
+                           name='expiry'
+                           maxLength='4'
+                           required title='Enter '
+                           placeholder='MM/YY Expiry'
+                           value={expiry}
+                           onChange={e => setExpiry(e.target.value)}
+                           onFocus={e => setFocus(e.target.name)}
+                    />
+
+                    <input className="niroin" type='tel'
+                           name='cvc'
+                           maxLength='4'
+                           required title='Enter '
+                           placeholder='CVC'
+                           value={cvc}
+                           onChange={e => setCvc(e.target.value)}
+                           onFocus={e => setFocus(e.target.name)}
+                    />
+
+                </form>
+                <button className="submitcc"  type="submit" form="creditform" value="Submit" >SUBMIT</button>
+            </div>
+
+
+            <br/>
+            <br/>
+
+
+        </div>
+    );
+
+
+
+}
+export default App;

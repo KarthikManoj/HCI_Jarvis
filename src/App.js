@@ -40,6 +40,7 @@ import BookM from './components/views/BookReviewNow/BookM';
 
 
 
+
 import app from './components/views/crud/App';
 import slide from "./components/views/addCart/slideshow"
 import cart from "./components/views/addCart/App"
@@ -94,7 +95,7 @@ function App() {
                 
 
 
-=======
+
                 <Route path="/app" component={app}></Route>
                 <Route path="/slide" component={slide}></Route>
                 <Route path="/cart" component={cart}></Route>

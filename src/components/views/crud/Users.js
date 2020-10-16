@@ -25,7 +25,7 @@ class Users extends Component{
                     <td><input type="text" ref={(val) => {this.address = val}} required defaultValue={user.address}/></td>
                     <td>$78.02</td>
                     <td>
-                        <Button type="button" value="Update" onClick={this.handleUpdate} ref={() => {this.indexNum = index}} className="btn green">Save</Button>
+                        <Button href="/FinalPay" variant="primary"  size="lg"  className="button222" value="Update" onClick={this.handleUpdate} ref={() => {this.indexNum = index}}>Checkout</Button>
                     </td>
                 </tr>
 
@@ -37,8 +37,8 @@ class Users extends Component{
                     <td>{user.phone}</td>
                     <td>{user.address}</td>
                     <td>$78.02</td>
-                    <td><Button variant="primary"  size="lg"   className="button" onClick={() => pressEditBtn(index)}>Edit</Button>
-                        <Button variant="primary"  size="lg"   className="button" onClick={()=>pressDelete(index)}>Delete</Button>
+                    <td><Button  variant="primary"  size="lg"  className="button222" onClick={() => pressEditBtn(index)}>Edit</Button>
+                        <Button  variant="primary"  size="lg"  className="button222" onClick={()=>pressDelete(index)}>Delete</Button>
                     </td>
                 </tr>
             );

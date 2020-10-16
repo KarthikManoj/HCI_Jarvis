@@ -62,7 +62,7 @@ class BootstrapCarouselComponent extends React.Component {
                                     <Carousel.Caption>
                                         <h1 className="aaaa">Business + Scientific books</h1>
                                         <h1 className="aaaaa">Available Now</h1>
-                                        <Button href="/cart" className="aaa"> Shop now</Button>
+                                        <Button  href="/cart" className="aaa"> Shop now</Button>
                                     </Carousel.Caption>
                                 </Carousel.Item>
 

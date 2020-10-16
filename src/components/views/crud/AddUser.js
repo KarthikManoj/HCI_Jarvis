@@ -33,15 +33,15 @@ class AddUser extends Component{
 
                     <div   className="form-group">
 
-                        <input  name="name" class="form-control" placeholder="Enter your name" required type="text" onChange={ this.updateState} />
+                        <center> <input  name="name" class="form-control" placeholder="Enter your name" required type="text" onChange={ this.updateState} /></center>
                         <br/>
-                        <input name="email" class="form-control"type="email" required placeholder="Enter your email" onChange={ this.updateState } />
+                        <center><input name="email" class="form-control"type="email" required placeholder="Enter your email" onChange={ this.updateState } /></center>
                         <br/>
-                        <input name="phone" class="form-control" placeholder="Enter your phone" required  onChange={ this.updateState} />
+                            <center><input name="phone" class="form-control" placeholder="Enter your phone" required  onChange={ this.updateState} /></center>
                         <br/>
-                        <input name="address" class="form-control" placeholder="Enter your address" required type="text" onChange={ this.updateState} />
+                                <center> <input name="address" class="form-control" placeholder="Enter your address" required type="text" onChange={ this.updateState} /></center>
                         <br/>
-                        <Button type="button" value="Add" className="btn blue">Checkout</Button>
+                        <center><Button href="/FinalPay"  variant="primary"  size="lg"  className="button1">Checkout</Button></center>
                     </div>
 
                 </form>
