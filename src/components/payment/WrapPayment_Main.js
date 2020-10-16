@@ -3,7 +3,7 @@ import Payment from './finalPayment';
 import DEmo from './demo';
 import './demoStyle.css'
 import Coupon from './coupon'
-
+import Credit from './creditAnimationForm';
 
 class WrapPaymentMain extends Component {
     render() {
@@ -19,7 +19,7 @@ class WrapPaymentMain extends Component {
 
                 <DEmo/>
                 <div className="pay_summary">
-
+                <Credit />
 
                 </div>
 

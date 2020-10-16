@@ -41,7 +41,7 @@ class AddUser extends Component{
                         <br/>
                         <input name="address" class="form-control" placeholder="Enter your address" required type="text" onChange={ this.updateState} />
                         <br/>
-                        <Button type="submit" value="Add +" className="btn blue">Checkout</Button>
+                        <Button type="button" value="Add" className="btn blue">Checkout</Button>
                     </div>
 
                 </form>

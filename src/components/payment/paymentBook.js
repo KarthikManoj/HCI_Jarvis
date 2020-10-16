@@ -10,6 +10,8 @@ import reqDeee from '../views/requestBook/mainReqBook';
 
 
 class PaymentBook extends Component {
+    inputCheck;
+
 
 
     componentDidMount() {
@@ -22,6 +24,7 @@ class PaymentBook extends Component {
         var animating; //flag to prevent quick multi-click glitches
 
         $(".next").click(function(){
+
 
             if(animating) return false;
             animating = true;
@@ -91,10 +94,30 @@ class PaymentBook extends Component {
                     current_fs.hide();
                     animating = false;
 
+
                 },
                 //this comes from the custom easing plugin
-               // easing: 'easeInOutBack'
+
             });
+        });
+
+        $(".submit").click(function(){
+
+
+            current_fs = $(this).parent();
+            current_fs.animate({opacity: 0}, {
+
+                duration: 8000,
+                complete: function(){
+                    current_fs.hide();
+                    animating = false;
+
+
+                },
+                });
+            swal("Good job!", "Thank you for Contact US", "success");
+            swal.close();
+
         });
 
 
@@ -104,46 +127,47 @@ class PaymentBook extends Component {
 
     render() {
         return (
-<body>
+<div className="niro-pay">
+    <h2>REQUEST BOOK</h2>
             <div className="row">
               <div className="col-md-6 col-md-offset-3">
                   <form id="msform">
                       <ul id="progressbar">
                           <li className="active">Personal Details</li>
-                          <li>Social Profiles</li>
-                          <li>Account Setup</li>
+                          <li>Book details</li>
+                          <li>Confirmation Setup</li>
                       </ul>
 
                       <fieldset>
                           <h2 className="fs-title">Personal Details</h2>
                           <h3 className="fs-subtitle">Tell us something more about you</h3>
-                          <input type="text" name="fname" placeholder="Card Holder Name"/>
-                          <input type="text" name="lname" placeholder="Mobile"/>
-                          <input type="text" name="pname" placeholder="Email"/>
-                          <input type="button" name="next" className="next action-button" value="Next"/>
+                          <input type="text" name="fname" placeholder="Full Name" />
+                          <input type="tel" name="lname" placeholder="Mobile" />
+                          <input type="text" name="pname" placeholder="Email" />
+                          <input type="text" name="pname" placeholder="Occupation" />
+                          <input type="button" name="next" className="next action-button" value="Next" />
                       </fieldset>
 
 
                       <fieldset>
-                          <h2 className="fs-title">Social Profiles</h2>
-                          <h3 className="fs-subtitle">Your presence on the social network</h3>
-                          <input type="tel" name="twitter" placeholder="Card Number"/>
-                          <input className="required" id="field" type="number" max="999" min="-999" name="cvvNNN"/>
-                          <input type="number" name="google" placeholder="CVV"/>
-                          <input type="date" name="insta" placeholder="Expiry Date"/>
+                          <h2 className="fs-title">Book Details</h2>
+                          <h3 className="fs-subtitle">Your request details</h3>
+                          <input type="tel" name="twitter" placeholder="Book Title"/>
+                          <input type="number" name="google" placeholder="ISBN No"/>
+                          <input type="text" name="insta" placeholder="Category"/>
                           <input type="text" name="youTube" placeholder="Nationality"/>
                           <input type="button" name="previous" className="previous action-button-previous" value="Previous"/>
                           <input type="button" name="next" className="next action-button" value="Next"/>
                       </fieldset>
 
                       <fieldset>
-                          <h2 className="fs-title">Create your Account</h2>
+                          <h2 className="fs-title">Confirm Request</h2>
                           <h3 className="fs-subtitle">Fill in your credentials</h3>
-                          <input type="text" name="email" placeholder="Email"/>
-                          <input type="password" name="pass" placeholder="Password"/>
+                          <input type="text" name="email" placeholder="Publisher"/>
+                          <input type="date" name="pass" placeholder="Date of Publication"/>
                           <input type="password" name="cpass" placeholder="Confirm Password"/>
                           <input type="button" name="previous" className="previous action-button-previous" value="Previous"/>
-                          <input type="submit" name="submit" className="submit action-button" value="Submit"/>
+                          <input type="submit" name="submit" className="submit action-button" value="Submit" />
                           {/*<Button variant="primary">
                               Amount <Badge variant="light">9</Badge>
                               <span className="sr-only">unread messages</span>
@@ -156,23 +180,14 @@ class PaymentBook extends Component {
 
 
             </div>
-            <Button variant="success" >Summary</Button>
+           {/* <Button variant="success" >Summary</Button>*/}
 
 
-
-
-
-
-{/*
-            <Button variant="primary">
-                Amount <Badge variant="light">LKR 250.00</Badge>
-                <span className="sr-only">unread messages</span>
-            </Button>*/}
-
-</body>
+</div>
 
         );
     }
+
 }
 
 export default PaymentBook;

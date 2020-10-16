@@ -31,12 +31,12 @@ export default class Products extends Component {
                             <li key={product._id}>
                                 <div className="product" class="card">
                                     <a href={"#" + product._id} onClick={()=>this.openModal(product)} >
-                                        <img width={186}
-                                             height={280} src={product.image} alt={product.title} className="check" ></img>
+                                        <center><img width={186}
+                                                     height={280} src={product.image} alt={product.title} className="check" ></img></center>
                                         <center><p class="card-title">{product.title}</p></center>
                                     </a>
                                     <center> <div className="check1">{formatCurrency(product.price)}</div></center>
-                                      <Button variant="primary"  size="lg" onClick={()=>this.props.addToCart(product)} >Add to cart</Button>
+                                    <center><Button variant="primary"  size="lg"   className="button1" onClick={()=>this.props.addToCart(product)} >Add to cart</Button></center>
                                 </div>
                             </li>
                         ))}

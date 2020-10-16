@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Button} from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "./table.css"
 
 class Users extends Component{
@@ -38,8 +37,9 @@ class Users extends Component{
                     <td>{user.phone}</td>
                     <td>{user.address}</td>
                     <td>$78.02</td>
-                    <td><Button className="btn white black-text" onClick={() => pressEditBtn(index)}>Edit</Button> |||||||||
-                        <Button className="btn red" onClick={()=>pressDelete(index)}>Delete</Button></td>
+                    <td><Button variant="primary"  size="lg"   className="button" onClick={() => pressEditBtn(index)}>Edit</Button>
+                        <Button variant="primary"  size="lg"   className="button" onClick={()=>pressDelete(index)}>Delete</Button>
+                    </td>
                 </tr>
             );
         });
