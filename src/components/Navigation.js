@@ -18,6 +18,15 @@ class Navigation extends Component {
                             <ReactBootstrap.Nav.Link href="/Cont">Contact US</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/Payment">Pay Test</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/payFin">Payment</ReactBootstrap.Nav.Link>
+                            
+                            
+                            
+                            
+                            
+                            
+                            <ReactBootstrap.Nav.Link href="/BB">Review</ReactBootstrap.Nav.Link>
+                            
+                            
                         </ReactBootstrap.Nav>
                         <ReactBootstrap.Nav>
                            <ReactBootstrap.Nav.Link eventKey={3} href="/user"><CircleIcon /></ReactBootstrap.Nav.Link>
