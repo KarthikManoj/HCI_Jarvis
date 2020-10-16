@@ -39,7 +39,7 @@ export default class Home extends Component {
             <div>
             <CardDeck>
                 
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                     <CardActionArea>
                     <a href="/bdet">
                         <CardImg  
@@ -48,12 +48,13 @@ export default class Home extends Component {
                         height="210"
                         
                         
+                        
                     />
                     </a>
                     </CardActionArea>
                         <CardBody>
-                            <CardTitle>Becoming Michelle Obama</CardTitle>
-                            <CardSubtitle>Author</CardSubtitle>
+                            <CardTitle>Becoming </CardTitle>
+                            <CardSubtitle>Michelle Obama</CardSubtitle>
                             <CardText>$18</CardText>
                                 <Box component="fieldset" borderColor="transparent">
                                     <Rating name="read-only" value={3} readOnly />
@@ -62,7 +63,7 @@ export default class Home extends Component {
                             
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg 
                                 src={far}
@@ -82,7 +83,7 @@ export default class Home extends Component {
                         </CardBody>
                         
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={novel}
@@ -100,7 +101,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={love}
@@ -118,7 +119,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={mistakes}
@@ -136,7 +137,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={harry}
@@ -154,7 +155,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={wife}
@@ -178,7 +179,7 @@ export default class Home extends Component {
             <br />
             <CardDeck>
                 
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                     <CardActionArea>
                         <CardImg  
                         src={age}
@@ -196,7 +197,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg 
                                 src={malai}
@@ -215,7 +216,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={heart}
@@ -233,7 +234,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={honda}
@@ -242,7 +243,7 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
-                        <CardTitle>Hitha Hoda Dosthara saha Abhirahas Doopatha</CardTitle>
+                        <CardTitle>Hitha Hoda Dosthara </CardTitle>
                         <CardSubtitle>Samarasinghe Gunasekara</CardSubtitle>
                         <CardText>$20</CardText>
                             <Box component="fieldset" borderColor="transparent">
@@ -251,7 +252,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={lake}
@@ -269,7 +270,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={kaalam}
@@ -287,7 +288,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={hotel}
@@ -311,7 +312,7 @@ export default class Home extends Component {
             <br />
             <CardDeck>
                 
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                     <CardActionArea>
                         <CardImg  
                         src={night}
@@ -329,7 +330,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg 
                                 src={dennek}
@@ -348,7 +349,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={deega}
@@ -366,7 +367,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={girl}
@@ -384,7 +385,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={educate} 
@@ -402,7 +403,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={never}
@@ -420,7 +421,7 @@ export default class Home extends Component {
                         <Button>Add to Cart</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card style={{width:"80%", height:"60%"}}>
                         <CardActionArea>
                         <CardImg  
                         src={dash}

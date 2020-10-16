@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Catergory from '../Catergory.js';
 import Home from '../Home.js';
+import Page from './Page';
 
 class viewBooks extends Component {
     render() {
@@ -9,6 +10,9 @@ class viewBooks extends Component {
                 <Catergory />
                 <br />
                 <Home />
+                <br />
+                <Page />
+                <br />
             </div>
         )
     }
