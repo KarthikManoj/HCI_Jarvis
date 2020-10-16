@@ -1,7 +1,12 @@
 import React, {Component} from 'react';
 import formatCurrency  from "./util"
 import Fade from "react-reveal/Fade";
-
+import {Button} from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import crud from "../crud/App"
+import {
+    Link
+} from 'react-router-dom';
 export default class Cart extends Component {
     constructor(props) {
         super(props);
@@ -47,10 +52,10 @@ export default class Cart extends Component {
                                     <div>
                                         <div>{item.title}</div>
                                         <div className={"right"} >
-                                            {formatCurrency(item.price)}*{item.count}{""}
-                                            <button className="button" onClick={()=>this.props.removeFromCart(item)}>
+                                            <center> {formatCurrency(item.price)}*{item.count}{""}</center>
+                                            <Button variant="primary"  size="lg"     className="button" onClick={()=>this.props.removeFromCart(item)}>
                                                 Remove
-                                            </button>
+                                            </Button>
                                             -----------------------------------------------------------
                                         </div>
 
@@ -70,9 +75,9 @@ export default class Cart extends Component {
                                         cartItems.reduce((a,c) => a + c.price*c.count,0)
                                     )}
                                 </div>
-                                <button onClick={()=>{this.setState({showCheckout: true})}} className="button primary">
+                                <Button href="/app" variant="primary"   className="button primary">
                                     Proceed
-                                </button>
+                                </Button>
                             </div>
 
                         </div>
@@ -82,19 +87,19 @@ export default class Cart extends Component {
                         <form onSubmit={this.createOrder}>
                             <ul className="form-container">
                                 <li>
-                                    <lable>Email</lable>
-                                    <input name="email" type="email" required onChange={this.handleInput}></input>
+                                    <lable for="exampleInputEmail1">Email</lable>
+                                    <input type="email"  type="email" required onChange={this.handleInput}></input>
                                 </li>
                                 <li>
-                                    <lable>Name</lable>
+                                    <lable for="exampleFormControlTextarea1">Name</lable>
                                     <input name="name" type="text" required onChange={this.handleInput}></input>
                                 </li>
                                 <li>
-                                    <lable>Address</lable>
+                                    <lable for="exampleFormControlTextarea1" >Address</lable>
                                     <input name="address" type="text" required onChange={this.handleInput}></input>
                                 </li>
                                 <li>
-                                    <button className="button primary" type="submit">Checkout</button>
+                                    <Button variant="primary"  size="lg" block type="submit">Checkout</Button>
                                 </li>
                             </ul>
 

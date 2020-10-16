@@ -14,10 +14,10 @@ class Footer extends Component {
                 <div class="col-sm-3">
                     <ul>
                     <li className="list-unstyled">
-                      <a href="#">FAQ</a>
+                      <a href="/FAQ">FAQ</a>
                     </li>
                     <li className="list-unstyled">
-                      <a href="#">Feedback</a>
+                      <a href="/Feedback">Feedback</a>
                     </li>
                     <li className="list-unstyled">
                       <a href="/ReqBook">Request Book</a>

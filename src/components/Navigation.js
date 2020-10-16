@@ -3,6 +3,7 @@ import * as ReactBootstrap from "react-bootstrap";
 import FinalPay from "./payment/finalPayment";
 import CircleIcon from '@material-ui/icons/AccountCircle';
 
+
 class Navigation extends Component {
     render() {
         return (
@@ -14,11 +15,20 @@ class Navigation extends Component {
                             <ReactBootstrap.Nav.Link href="/Homepage">Home</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/ViewBooks"> Books</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/Catergory">Catergory</ReactBootstrap.Nav.Link>
-                            <ReactBootstrap.Nav.Link href="/Cont">Contact US</ReactBootstrap.Nav.Link>
-                            <ReactBootstrap.Nav.Link href="/RequestBookNew">Request Book</ReactBootstrap.Nav.Link>
+                            <ReactBootstrap.Nav.Link href="/Cont">Contact US</ReactBootstrap.Nav.Link>                     
                             <ReactBootstrap.Nav.Link href="/payFin">Payment</ReactBootstrap.Nav.Link>
+                            
+                            
+                            
+                            
+                            
+                            
+                            <ReactBootstrap.Nav.Link href="/BB">Review</ReactBootstrap.Nav.Link>
+                            
+                            
                         </ReactBootstrap.Nav>
                         <ReactBootstrap.Nav>
+
                            <ReactBootstrap.Nav.Link eventKey={3} href="/user"><CircleIcon /></ReactBootstrap.Nav.Link>
                         </ReactBootstrap.Nav>
                     </ReactBootstrap.Navbar.Collapse>

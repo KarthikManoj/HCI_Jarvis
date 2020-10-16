@@ -125,7 +125,7 @@ export default class Books extends Component {
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 
-                      <button class="button">Add Review</button>
+                      <button href="/BB" class="button" >Add Review</button>
                     </div>
                     <br />
                     
