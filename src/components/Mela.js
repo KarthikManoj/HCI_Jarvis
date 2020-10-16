@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import logo from './Images/logo.png';
 import shopping from './Images/shopping.png';
 import Button from '@material-ui/core/Button';
-
+import { MDBCol, MDBFormInline, MDBIcon } from "mdbreact";
+import * as ReactBootstrap from "react-bootstrap";
 
 export default class Mela extends Component {
     render() {
@@ -21,15 +22,33 @@ export default class Mela extends Component {
                     </div>
                     
                 </div>
-                <div class="col-sm-8">
+
+
+                <div  class="col-sm-8">
+                    <ReactBootstrap.Nav.Link href="/searchName">
+                    <div >
+                        <MDBCol md="6">
+                            <MDBFormInline className="md-form">
+                                <MDBIcon icon="search" />
+                                <input className="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search" />
+                            </MDBFormInline>
+                        </MDBCol>
+                    </div>
+                    </ReactBootstrap.Nav.Link>
 
                 </div>
+
+
+
+
+
+
                 <div class="col-sm-0.5">
                     <br />
                     <br />
                     <br />
 
-                        <a href="/addCart">
+                        <a href="/slide">
                         <img src={shopping} alt="cart"  height="30" />
                         </a>
                         
@@ -38,7 +57,7 @@ export default class Mela extends Component {
                     <br />
                     <br />
                     <br />
-                    <Button color="dark" size="lg" href="/form" active>
+                    <Button color="dark" size="lg" href="/login" active>
                             Login
                     </Button>
                 </div>

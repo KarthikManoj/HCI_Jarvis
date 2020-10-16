@@ -11,7 +11,7 @@ import AddToCardMain from "./components/views/addCart/AddToCardMain";
 import Login from "./components/adminLogin/Login";
 import Books from "./components/Books/addBooks";
 import ReqBook from "./components/views/requestBook/mainReqBook";
-import TestPay from "./components/payment/paymentBook";
+import RequestBookNew from "./components/payment/WrapReqBook_Main";
 import Mela from "./components/Mela";
 import Form from './components/newLogin/Form';
 import Catergory from './components/Catergory';
@@ -20,6 +20,7 @@ import Dashboard from './components/adminDashboard/Dashboard';
 import User from './components/userProfile';
 import Book from './components/Books/Books';
 import FinalPay from './components/payment/WrapPayment_Main';
+<<<<<<< HEAD
 import AddCommentsMain from './components/views/AddComments/AddCommentsMain';
 import FeedbackMain from './components/views/FeedBack/FeedbackMain';
 import Main2 from './components/views/FAQ_2/Main2';
@@ -32,6 +33,18 @@ import BookM from './components/views/BookReviewNow/BookM';
 
 
 
+=======
+import app from './components/views/crud/App';
+import slide from "./components/views/addCart/slideshow"
+import cart from "./components/views/addCart/App"
+import romance from "./components/views/SearchByCategory/CategoryScience/App"
+import novel from "./components/views/SearchByCategory/CategoryHistory/App"
+import business from "./components/views/SearchByCategory/CategoryMaths/App"
+import bio from "./components/views/SearchByCategory/CategoryBio/App"
+import history from "./components/views/SearchByCategory/CategoryHistory2/App"
+import sic from "./components/views/SearchByCategory/CategorySci/App"
+import searchName from "./components/views/SearchByName/index"
+>>>>>>> 268225a26bd836872f54aded3a5e7c3eef42e506
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -48,7 +61,7 @@ function App() {
                 <Route path="/addCart" component={AddToCardMain}></Route>
                 <Route path="/Cont" component={Contact}></Route>
                 <Route path="/ReqBook" component={ReqBook}></Route>
-                <Route path="/Payment" component={TestPay}></Route>
+                <Route path="/RequestBookNew" component={RequestBookNew}></Route>
                 <Route path="/footer" component={Footer}></Route>
                 <Route path="/login" component={Login}></Route>
                 <Route path="/books" component={Books}></Route>
@@ -61,6 +74,7 @@ function App() {
                 <Route path="/bdet" component={Book}></Route>
                 <Route path="/addCart" component={AddToCardMain}></Route>
                 <Route path="/Cont" component={Contact}></Route>
+<<<<<<< HEAD
                 <Route path="/Comments" component={AddCommentsMain}></Route>
                 <Route path="/Feedback" component={FeedbackMain}></Route>
                 <Route path="/FAQ" component={Main2}></Route>
@@ -71,6 +85,18 @@ function App() {
                 
 
 
+=======
+                <Route path="/app" component={app}></Route>
+                <Route path="/slide" component={slide}></Route>
+                <Route path="/cart" component={cart}></Route>
+                <Route path="/romance" component={romance}></Route>
+                <Route path="/novel" component={novel}></Route>
+                <Route path="/business" component={business}></Route>
+                <Route path="/bio" component={bio}></Route>
+                <Route path="/history" component={history}></Route>
+                <Route path="/sic" component={sic}></Route>
+                <Route path="/searchName" component={searchName}></Route>
+>>>>>>> 268225a26bd836872f54aded3a5e7c3eef42e506
                 <Route path="/payFin" component={FinalPay}></Route>
             </Switch>
 <br/>

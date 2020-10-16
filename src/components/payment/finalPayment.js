@@ -47,6 +47,10 @@ class FinalPayment extends Component {
                 this.selectionStart = this.selectionEnd = caretPosition;
             }
 
+            /*$(".submit").click(function(){
+
+            });*/
+
         });
     }
 
@@ -56,7 +60,7 @@ class FinalPayment extends Component {
             <div className="container-fluid px-1 px-md-2 px-lg-4 py-5 mx-auto">
                 <div className="row d-flex justify-content-center">
                     <div className="col-xl-7 col-lg-8 col-md-9 col-sm-11">
-                        <div className="card border-0">
+                        <div className="card cardc border-0">
                             <div className="row justify-content-center">
                                 <h3 className="mb-4">Credit Card Checkout</h3>
                             </div>
@@ -110,7 +114,7 @@ class FinalPayment extends Component {
                                         <h2 className=""><span className="text-md font-weight-bold mr-2">$</span><span
                                             className="text-danger">59.49</span></h2>
                                     </div>
-                                    <button type="submit" className="btn btn-red text-center mt-4">PAY</button>
+                                    <button  type="submit" name="payee" className="btn btn-red text-center mt-4">PAY</button>
                                 </div>
                             </div>
                         </div>

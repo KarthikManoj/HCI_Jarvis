@@ -25,7 +25,7 @@ const AddUserForm = props => {
 			<input type="text" name="name" value={user.name} onChange={handleInputChange} />
 			<h2>Username</h2>
 			<input type="text" name="username" value={user.username} onChange={handleInputChange} />
-			<button>Add new user</button>
+			<button>Add comment</button>
 		</form>
 	)
 }
