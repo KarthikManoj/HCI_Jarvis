@@ -19,11 +19,16 @@ import ViewBooks from './components/Books/viewBooks';
 import Dashboard from './components/adminDashboard/Dashboard';
 import User from './components/userProfile';
 import Book from './components/Books/Books';
+
 import Page from './components/Books/Page';
 import Login from './components/loginForm/Login';
-// import Chips from './components/Books/chips';
+
+
+import FinalPay from './components/payment/WrapPayment_Main';
+
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
@@ -50,10 +55,13 @@ function App() {
                 <Route path="/bdet" component={Book}></Route>
                 <Route path="/addCart" component={AddToCardMain}></Route>
                 <Route path="/Cont" component={Contact}></Route>
+
                 <Route path="/page" component={Page}></Route>
                 <Route path="/login" component={Login}></Route>
                 {/* <Route path="/chips" component={Chips}></Route> */}
+                <Route path="/payFin" component={FinalPay}></Route>
             </Switch>
+            <br/>
         <Footer />
       </BrowserRouter>
 
