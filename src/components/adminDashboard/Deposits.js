@@ -17,13 +17,14 @@ const useStyles = makeStyles({
 export default function Deposits() {
   const classes = useStyles();
   return (
+    
     <React.Fragment>
-      <Title>Recent Deposits</Title>
+      <Title>Total Earnings</Title>
       <Typography component="p" variant="h4">
-        $3,024.00
+        Rs.158,963
       </Typography>
       <Typography color="textSecondary" className={classes.depositContext}>
-        on 15 March, 2019
+        on 18 October, 2020
       </Typography>
       <div>
         <Link color="primary" href="#" onClick={preventDefault}>

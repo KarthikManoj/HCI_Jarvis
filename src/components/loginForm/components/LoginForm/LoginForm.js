@@ -83,7 +83,8 @@ function LoginForm(props) {
                 <button 
                     type="submit" 
                     className="btn btn-primary"
-                    onClick={handleSubmitClick}
+                    onClick={event =>  window.location.href='/user'}
+                    
                 >Submit</button>
             </form>
             <div className="alert alert-success mt-2" style={{display: state.successMessage ? 'block' : 'none' }} role="alert">

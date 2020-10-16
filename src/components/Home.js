@@ -3,6 +3,8 @@ import {
     Card, Button, CardImg, CardTitle, CardText, CardDeck,
     CardSubtitle, CardBody
   } from 'reactstrap';
+
+  import './Books/books.css';
   
 import CardActionArea from '@material-ui/core/CardActionArea';
 import obama from './Images/obama.jpg';
@@ -59,7 +61,7 @@ export default class Home extends Component {
                                 <Box component="fieldset" borderColor="transparent">
                                     <Rating name="read-only" value={3} readOnly />
                                 </Box>
-                            <Button>Add to Cart</Button>
+                            <button class="button">Add to Cart</button>
                             
                         </CardBody>
                     </Card>
@@ -79,7 +81,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                         
                     </Card>
@@ -98,7 +100,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -116,7 +118,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -134,7 +136,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -152,7 +154,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -170,7 +172,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     
@@ -194,7 +196,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={4} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -213,7 +215,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -231,7 +233,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -249,7 +251,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -267,7 +269,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -285,7 +287,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -303,7 +305,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={2} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     
@@ -327,7 +329,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -346,7 +348,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -364,7 +366,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={4} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -382,7 +384,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -400,7 +402,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={5} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -418,7 +420,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     <Card style={{width:"80%", height:"60%"}}>
@@ -436,7 +438,7 @@ export default class Home extends Component {
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <Button>Add to Cart</Button>
+                        <button class="button">Add to Cart</button>
                         </CardBody>
                     </Card>
                     

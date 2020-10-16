@@ -1,7 +1,8 @@
 import React from 'react';
 import { FormGroup, Label  } from 'reactstrap';
 import './books.css';
-import { Button, Row, Col, Card, CardImg,  CardDeck, 
+import bottomnav from '../bottomNav';
+import { Row, Col, Card, CardImg,  CardDeck, 
    CardBody  } from 'reactstrap';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import DeleteIcon from '@material-ui/icons/Delete';
@@ -25,23 +26,23 @@ const Books = (props) => {
         <FormGroup>
           <br />
           <Label for="bookName">Book Name</Label>
-          <inputt type="textarea" name="text" id="bookName" placeholder="Name of the Book" size="40" required/>
+          <input class="add" type="textarea" name="text" id="bookName" placeholder="Name of the Book" size="40" required/>
         </FormGroup>
         <FormGroup>
           <Label for="bookAuthor">Book Author</Label>
-          <inputt type="text" name="text" id="bookAuthor" placeholder="Name of the Author" size="40" required />
+          <input class="add" type="text" name="text" id="bookAuthor" placeholder="Name of the Author" size="40" required />
         </FormGroup>
         <FormGroup>
           <Label for="bookIsbn">Book ISBN</Label>
-          <inputt type="text" name="number" id="bookIsbn" placeholder="Book ISBN" />
+          <input class="add" type="text" name="number" id="bookIsbn" placeholder="Book ISBN" />
         </FormGroup>
         <FormGroup>
           <label for="desc">Book Description</label>
-          <inputt type="textarea" name="text" id="desc" placeholder="Description" rows="5" cols="33"/>
+          <input class="add" type="textarea" name="text" id="desc" placeholder="Description" rows="5" cols="33"/>
         </FormGroup>
         <FormGroup>
           <Label for="exampleFile">File</Label>
-          <inputt type="file" name="file" id="exampleFile" />
+          <input class="add"  type="file" name="file" id="exampleFile" />
         </FormGroup>
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -49,20 +50,24 @@ const Books = (props) => {
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
         <button class="button">Submit</button>
-        
-      
-
-    
+        <br />
+        <br />
     <Row >
         <Col>
-            <div>
+            <div style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              color:"#000000"
+              }}>
             <CardDeck>
-            <Card style={{width:"80%", height:"60%"}}>
+            <Card style={{height:"60%"}}>
                                 <CardActionArea>
                                 <CardImg  
                                 src={heart}
                                 alt="Book"
-                                height="210"
+                                height="320"
+                                
                             />
                             </CardActionArea>
                                 <CardBody>
@@ -76,7 +81,7 @@ const Books = (props) => {
                                 <CardImg  
                                 src={honda}
                                 alt="Book"
-                                height="210"
+                                height="320"
                             />
                             </CardActionArea>
                                 <CardBody>
@@ -90,7 +95,7 @@ const Books = (props) => {
                                 <CardImg  
                                 src={lake}
                                 alt="Book"
-                                height="210"
+                                height="320"
                             />
                             </CardActionArea>
                                 <CardBody>
@@ -104,7 +109,7 @@ const Books = (props) => {
                                 <CardImg  
                                 src={kaalam}
                                 alt="Book"
-                                height="210"
+                                height="320"
                             />
                             </CardActionArea>
                                 <CardBody>
@@ -118,20 +123,30 @@ const Books = (props) => {
                                 <CardImg  
                                 src={hotel}
                                 alt="Book"
-                                height="210"
+                                height="320"
                             />
                             </CardActionArea>
                                 <CardBody>
                                 
-                                <button class="buttonnew">Update</button>
-                                <button class="buttonnew"><DeleteIcon /></button>
+                                <div style={{
+                                  display: "flex",
+                                  justifyContent: "center",
+                                  alignItems: "center",
+                                  color:"#000000"
+                                }}>
+                                  
+                                    <button class="buttonnew">Update</button>
+                                    <button class="buttonnew"><DeleteIcon /></button>
+                                </div>
                                 </CardBody>
                             </Card>
+                            <bottomnav />
+
             </CardDeck>
           </div>
         </Col>
       </Row>
-      </form>
+    </form>
    </div>
   );
 }

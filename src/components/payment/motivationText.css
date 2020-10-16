@@ -18,7 +18,7 @@ motiva {
     justify-content: center;
 }
 
-.container {
+.containern {
     max-width: 960px;
     text-align: center;
 }
@@ -35,19 +35,9 @@ motiva {
     100% { top: 0; }
 }
 
-.container p {
-    position: relative;
-    left: -1500px;
-    animation-name: paragraph;
-    animation-duration: 2s;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-}
 
-@keyframes paragraph {
-    0% { left: -1500px; }
-    100% { left: 0; }
-}
+
+
 
 .bunn {
     color: #ffffff;

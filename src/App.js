@@ -16,13 +16,14 @@ import Mela from "./components/Mela";
 // import Form from './components/newLogin/Form';
 import Catergory from './components/Catergory';
 import ViewBooks from './components/Books/viewBooks';
+import AddBooks from './components/Books/addBooks';
 import Dashboard from './components/adminDashboard/Dashboard';
 import User from './components/userProfile';
 import Book from './components/Books/Books';
 
 import Page from './components/Books/Page';
 import Login from './components/loginForm/Login';
-
+import BottomNav from './components/bottomNav';
 
 import FinalPay from './components/payment/WrapPayment_Main';
 
@@ -50,10 +51,12 @@ function App() {
                 {/* <Route path="/form" component={Form}></Route> */}
                 <Route path="/Catergory" component={Catergory}></Route>
                 <Route path="/ViewBooks" component={ViewBooks}></Route>
+                <Route path="/addbooks" component={AddBooks}></Route>
                 <Route path="/dashBoard" component={Dashboard}></Route>
                 <Route path="/user" component={User}></Route>
                 <Route path="/bdet" component={Book}></Route>
-                
+                <Route path="/bottomnav" component={BottomNav}></Route>
+
                 <Route path="/addCart" component={AddToCardMain}></Route>
                 <Route path="/Cont" component={Contact}></Route>
 

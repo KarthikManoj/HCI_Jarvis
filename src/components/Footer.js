@@ -1,5 +1,7 @@
 import "./Footer.css";
-
+import Facebook from '@material-ui/icons/Facebook';
+import Insta from '@material-ui/icons/Instagram';
+import Twitter from '@material-ui/icons/Twitter';
 import React, {Component} from 'react';
 
 class Footer extends Component {
@@ -23,9 +25,7 @@ class Footer extends Component {
                     <li className="list-unstyled">
                       <a href="#">Track Order</a>
                     </li>
-                    <li className="list-unstyled">
-                      <a href="">Terms & Condtions</a>
-                    </li>
+                    
                   </ul>
                 </div>
                 <div class="col-sm-3">
@@ -39,7 +39,11 @@ class Footer extends Component {
               <hr />
               <div className="">
                 <p className="col-sm">
-                  &copy;{new Date().getFullYear()} Created with ♥ by jarvis
+                  &copy;{new Date().getFullYear()} Created with ♥ by jarvis  &nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                <Facebook /><Insta /> <Twitter />
                 </p>
               </div>
             </div>

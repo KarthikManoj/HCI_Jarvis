@@ -68,7 +68,7 @@ export default class Books extends Component {
                                 <button  class="button" onClick={this.IncrementItem}>+</button>
                                </div>
                                 <br />
-                            <button class="button">Add to Cart</button>
+                            <button class="button" href="/crud">Add to Cart</button>
                             <br />
                             <br />
                             <Chips />
@@ -145,13 +145,7 @@ export default class Books extends Component {
                         </a>
                         </CardActionArea>
                         <CardBody>
-                            <CardTitle>Becoming </CardTitle>
-                            <CardSubtitle>Michelle Obama</CardSubtitle>
-                            <CardText>$18</CardText>
-                                <Box component="fieldset" borderColor="transparent">
-                                    <Rating name="read-only" value={3} readOnly />
-                                </Box>
-                            <Button>Add to Cart</Button>
+                            
                             
                         </CardBody>
                         </Card>

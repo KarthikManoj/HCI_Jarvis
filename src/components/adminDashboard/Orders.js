@@ -34,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Orders() {
   const classes = useStyles();
   return (
+    <div class="admin">
     <React.Fragment>
       <Title>Recent Orders</Title>
       <Table size="small">
@@ -64,5 +65,6 @@ export default function Orders() {
         </Link>
       </div>
     </React.Fragment>
+    </div>
   );
 }

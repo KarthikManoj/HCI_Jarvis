@@ -15,21 +15,21 @@ import dark from './Images/dark.jpg';
 const items = [
   {
     src: old,
-    altText: 'Slide 1',
-    caption: 'Slide 1',
+    altText: '',
+    caption: '',
     height: '10',
     width: '20'
   },
   {
     src: big,
-    altText: 'Slide 2',
-    caption: 'Slide 2',
+    altText: '',
+    caption: '',
     height: '10'
   },
   {
     src: dark,
-    altText: 'Slide 3',
-    caption: 'Slide 3',
+    altText: '',
+    caption: '',
     height: '10'
   }
 ];

@@ -24,6 +24,7 @@ export default function Chart() {
   const theme = useTheme();
 
   return (
+    
     <React.Fragment>
       <Title>Today</Title>
       <ResponsiveContainer>
