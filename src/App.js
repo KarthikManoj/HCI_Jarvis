@@ -11,7 +11,7 @@ import AddToCardMain from "./components/views/addCart/AddToCardMain";
 import Loginew from "./components/adminLogin/Login";
 import Books from "./components/Books/addBooks";
 import ReqBook from "./components/views/requestBook/mainReqBook";
-import TestPay from "./components/payment/paymentBook";
+import RequestBookNew from "./components/payment/WrapReqBook_Main";
 import Mela from "./components/Mela";
 // import Form from './components/newLogin/Form';
 import Catergory from './components/Catergory';
@@ -42,7 +42,7 @@ function App() {
                 <Route path="/addCart" component={AddToCardMain}></Route>
                 <Route path="/Cont" component={Contact}></Route>
                 <Route path="/ReqBook" component={ReqBook}></Route>
-                <Route path="/Payment" component={TestPay}></Route>
+                <Route path="/RequestBookNew" component={RequestBookNew}></Route>
                 <Route path="/footer" component={Footer}></Route>
                 <Route path="/loginew" component={Loginew}></Route>
                 <Route path="/books" component={Books}></Route>

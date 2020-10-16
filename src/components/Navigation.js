@@ -16,7 +16,7 @@ class Navigation extends Component {
                             <ReactBootstrap.Nav.Link href="/ViewBooks">View Books</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/Catergory">Catergory</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/Cont">Contact US</ReactBootstrap.Nav.Link>
-                            <ReactBootstrap.Nav.Link href="/Payment">Pay Test</ReactBootstrap.Nav.Link>
+                            <ReactBootstrap.Nav.Link href="/RequestBookNew">Request Book</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/payFin">Payment</ReactBootstrap.Nav.Link>
                         </ReactBootstrap.Nav>
                         <ReactBootstrap.Nav>

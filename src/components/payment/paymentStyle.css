@@ -1,15 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
-body {
+
+.niro-pay {
     font-family: montserrat, arial, verdana;
     background: transparent;
 
-    height: 100%;
+    height: 50%;
    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #6441A5, #2a0845); /* Chrome 10-25, Safari 5.1-6 */
+     /* Chrome 10-25, Safari 5.1-6 */
 }
 
 
@@ -21,6 +18,8 @@ body {
     text-align: center;
     position: relative;
     margin-top: 30px;
+
+
 }
 
 #msform fieldset {
@@ -69,15 +68,32 @@ body {
 
 /*buttons*/
 #msform .action-button {
-    width: 100px;
-    background: #ee0979;
+    /*width: 100px;
+    !*background: #ee0979;*!
+    background: #033046;
     font-weight: bold;
     color: white;
     border: 0 none;
     border-radius: 25px;
     cursor: pointer;
     padding: 10px 5px;
+    margin: 10px 5px;*/
+
+
+
+    background-color: #033046;
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 16px;
     margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100px;
+
 }
 
 #msform .action-button:hover, #msform .action-button:focus {
@@ -194,4 +210,13 @@ body {
 .dme_link a:hover, .dme_link a:focus {
     background: #C5C5F1;
     text-decoration: none;
+}
+
+h2 {
+    color: #014561;
+    font-size: 40px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
 }
