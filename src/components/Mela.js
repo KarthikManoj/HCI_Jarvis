@@ -22,7 +22,7 @@ export default class Mela extends Component {
                     
                 </div>
                 <div class="col-sm-8">
-
+                    
                 </div>
                 <div class="col-sm-0.5">
                     <br />
@@ -38,7 +38,7 @@ export default class Mela extends Component {
                     <br />
                     <br />
                     <br />
-                    <Button color="dark" size="lg" href="/form" active>
+                    <Button color="dark" size="lg" href="/login" active>
                             Login
                     </Button>
                 </div>

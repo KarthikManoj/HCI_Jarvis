@@ -24,14 +24,14 @@ class Footer extends Component {
                       <a href="#">Track Order</a>
                     </li>
                     <li className="list-unstyled">
-                      <a href="#">Terms & Condtions</a>
+                      <a href="">Terms & Condtions</a>
                     </li>
                   </ul>
                 </div>
                 <div class="col-sm-3">
                   <ul>
                   <li className="list-unstyled">
-                      <a href="/Login">Admin Login</a>
+                      <a href="/Loginew">Admin Login</a>
                     </li>
                   </ul>
                 </div>
