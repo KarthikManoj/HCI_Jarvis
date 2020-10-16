@@ -23,7 +23,7 @@ export default class Products extends Component {
     render() {
         const {product} = this.state;
         return (
-            <div >
+            <div className="foot" >
                 <Fade bottom cascade>
                     <center><div className="font">Books </div></center>
                     <ul className="products">

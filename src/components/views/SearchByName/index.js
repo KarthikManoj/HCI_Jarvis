@@ -67,12 +67,12 @@ class App extends Component {
                         <div className="columns">
                             <div className="col">
 
-                                <Input
+                               <center> <Input
                                     label="Search by Name"
                                     icon="search"
                                     onChange={this.onchange}
                                     placeholder="Search by book name"
-                                />
+                               /></center>
                             </div>
 
                         </div>

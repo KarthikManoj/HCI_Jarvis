@@ -5,7 +5,7 @@ import App from "./App";
 class AddToCardMain extends Component {
     render() {
         return (
-            <div>
+            <div className="footer1">
                <App/>
             </div>
         );

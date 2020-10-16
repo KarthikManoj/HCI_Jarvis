@@ -4,11 +4,11 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
-body,
+/*body,
 #root {
   height: 100vh;
   margin: 0;
-}
+}*/
 body,
 input,
 select,
@@ -132,9 +132,8 @@ footer {
 .button {
   padding: 1rem;
   border: 0.1rem #c0c0c0 solid;
-  background-color: #2e86c1   ;
+  background-color: #203040   ;
   cursor: pointer;
-  background-color: #2e86c1 ;
 }
 .button:hover {
   border: 0.1rem #808080 solid;
@@ -295,7 +294,7 @@ th {
   margin-bottom: 180px;
   font-size: 20px;
 
-  background-color: #34a0ea;
+  background-color: #203040;
   border: #e3eaf0;
   color: white;
   padding: 16px 32px;
@@ -333,4 +332,7 @@ th {
   font-family: sans-serif;
   color: #666666;
   font-size: 40px;
+}
+.footer1{
+  height: 1000px;
 }

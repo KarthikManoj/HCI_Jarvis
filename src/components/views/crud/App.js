@@ -65,7 +65,7 @@ class App extends Component{
      <br/><br/><br/>
                 <Users allUsers={this.state.users} pressEditBtn={this.pressEditBtn} updateUser={this.updateUser} pressDelete={this.pressDelete} />
 <br/><br/>
-                <center> <Button variant="primary"  size="lg"   className="button1">Pay</Button></center>
+
             </div>
         );
     }
