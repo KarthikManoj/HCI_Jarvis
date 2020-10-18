@@ -1,24 +1,42 @@
-.customers {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+.customers123 {
+
     border-collapse: collapse;
-    width: 100%;
+    width: 75%;
 }
 
-.customers td, #customers th {
-    border: 1px solid black;
+.customers123 td, customers123 th {
+    border: 1px solid #ddd;
     padding: 8px;
 }
 
-.customers tr:nth-child(even){background-color: black;}
+.customers123 tr:nth-child(even){background-color: #f2f2f2;}
 
-.customers tr:hover {background-color: black;}
+.customers123 tr:hover {background-color: #ddd;}
 
-.customers th {
+.customers123 th {
     padding-top: 12px;
     padding-bottom: 12px;
-    text-align: left;
-    background-color: #203040;
+    text-align: center;
+    background-color: #666666;
     color: white;
+    font-size: 18px;
+
+}
+
+.container11{
+    padding: 1rem;
+
+    cursor: pointer;
+    font-family: "Font Awesome\ 5 Free", sans-serif;
+}
+.container112{
+    padding: 1rem;
+    border: 0.1rem #203040 solid;
+    cursor: pointer;
+    font-family: "Font Awesome\ 5 Free", sans-serif;
+    height: 50%;
+    width: 50%;
+    background-color: #dedef9;
 }
 
 .button222 {
@@ -26,8 +44,28 @@
     border: 0.1rem #c0c0c0 solid;
     cursor: pointer;
     background-color: #203040 ;
+    width: 100px;
 }
 .button222:hover {
     border: 0.1rem #808080 solid;
 }
+.button1234 {
+    background-color: #033046;
+    cursor: pointer;
+    border: 1px solid #1a202c;
+    padding: 8px;
+    min-width: 64px;
+    height: 40px;
+    width: 200px;
 
+    font-size: 16px;
+}
+
+.button1234:hover {
+    background: #033046 ;
+    color: #ffffff;
+}
+.headuu{
+    font-size: 22px;
+
+}

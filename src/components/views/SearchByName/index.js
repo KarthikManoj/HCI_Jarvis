@@ -14,7 +14,8 @@ import ww from "./image/ww.gif"
 
 class App extends Component {
     state = {
-        search: ""
+        search: "",
+
     };
 
     renderBook = book => {
@@ -28,24 +29,31 @@ class App extends Component {
                     backgroundSize: "",
                 }}
             >
-<br/>
-            <div className="abc">
+                <br/>
+                <div className="abc">
 
                     <br/>
                     <div ><center>
-                    <CardTitle  title={book.Name}>
-                        <h1> {book.Name.substring(0, 16)}</h1>
-                        <p >
-                            <img width={250}
-                                 height={350}
-                                src={book["image"]}
-                            />
-                            <br/><br/>
-                            <center><Button href="/addCart"  className="button1"> ADD TO CART</Button></center>
-                        </p>
-                    </CardTitle></center></div>
-                     <br/>
-            </div>
+                        <cardTitle className="heading11" title={book.Name}>
+                            {book.Name.substring(0, 30)}
+
+                            <p ><br/>
+                                <img width={250}
+                                     height={350}
+                                     src={book["image"]}
+                                /><br/><br/>
+                                <span className="desc">{book["des"]}</span>
+                                <center><span className="price">${book["Price"]}</span></center>
+                                <br/>
+                                <center><Button href="/addCart"  className="button1234"> ADD TO CART</Button></center>
+                                <br/>
+                                <center><Button  href="/app" type="button" className="button1234">
+                                    Buy Now
+                                </Button></center>
+                            </p>
+                        </cardTitle></center></div>
+                    <br/>
+                </div>
             </div>
         );
     };
@@ -59,28 +67,28 @@ class App extends Component {
         const filteredBooks = booksList.filter(book => {
             return book.Name.toLowerCase().indexOf(search.toLowerCase()) !== -1;
         });
-
         return (
             <div className="flyout">
                 <main style={{ marginTop: "4rem" }}>
                     <div className="container">
                         <div className="columns">
                             <div className="col">
+                                <br/><br/>
+                                <div className="hey">Search</div> <center> <input className="bookname"
+                                                                                  label="Search by Name"
+                                                                                  icon="search"
+                                                                                  onChange={this.onchange}
+                                                                                  placeholder="Search by book name"
+                            /></center>
 
-                               <center> <Input
-                                    label="Search by Name"
-                                    icon="search"
-                                    onChange={this.onchange}
-                                    placeholder="Search by book name"
-                               /></center>
                             </div>
 
                         </div>
                         <div >
                             <div>
-                            {filteredBooks.map(book => {
-                                return this.renderBook(book);
-                            })}
+                                {filteredBooks.map(book => {
+                                    return this.renderBook(book);
+                                })}
                             </div>
                         </div>
                     </div>

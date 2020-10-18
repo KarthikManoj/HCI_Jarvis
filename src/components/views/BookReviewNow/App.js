@@ -47,7 +47,7 @@ const App = () => {
 	}
 
 	return (
-		<div className="container">
+		<div className="containerlee">
 			<h1>....SHARE YOUR REVIEWS....</h1><br></br><br></br>
 			<div className="flex-row">
 				<div className="flex-large">

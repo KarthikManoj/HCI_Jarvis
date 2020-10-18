@@ -16,16 +16,16 @@ import Swiper from "swiper";
 class MainReqBook extends Component {
 
     componentDidMount() {
-      this.swiper = new Swiper('.swiper-container', {
-          effect: 'flip',
-          grabCursor: true,
-          pagination: {
-              el: '.swiper-pagination',
-          },
-          navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-          },
+        this.swiper = new Swiper('.swiper-container', {
+            effect: 'flip',
+            grabCursor: true,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
         });
     }
 
@@ -35,7 +35,7 @@ class MainReqBook extends Component {
 
         return (
             <div className="mySlide">
-                <h2>Hey</h2>
+                <h2>Contact Us</h2>
                 <Carousel>
                     <Carousel.Item>
                         <img
@@ -43,8 +43,8 @@ class MainReqBook extends Component {
                             src={REqBook1}
                             alt="First Slide"/>
                         <Carousel.Caption>
-                            <h2><Wave text='SCHEDULE A CALL WITH US! ' effect="stretch" effectChange={2.2}
-                            /></h2>
+                            <h1><Wave text='SCHEDULE A CALL WITH Uss ' effect="stretch" effectChange={2.2}
+                            /></h1>
                         </Carousel.Caption>
                     </Carousel.Item>
 
@@ -54,8 +54,8 @@ class MainReqBook extends Component {
                             src={REqBook2}
                             alt="Second Slide"/>
                         <Carousel.Caption>
-                            <h2><Wave text='GET IN TOUCH! ' effect="stretch" effectChange={2.2}
-                            /></h2>
+                            <h1><Wave text='GET IN TOUCH! ' effect="stretch" effectChange={2.2}
+                            /></h1>
                         </Carousel.Caption>
 
                     </Carousel.Item>
@@ -66,8 +66,8 @@ class MainReqBook extends Component {
                             src={REqBook3}
                             alt="Second Slide"/>
                         <Carousel.Caption>
-                            <h2><Wave text='GET IN TOUCH! ' effect="stretch" effectChange={2.2}
-                            /></h2>
+                            <h1><Wave text='MAKE BOOK ORDERS' effect="stretch" effectChange={2.2}
+                            /></h1>
                         </Carousel.Caption>
 
                     </Carousel.Item>
@@ -81,77 +81,73 @@ class MainReqBook extends Component {
 
                         className="giphy-embed" allowFullScreen></iframe>
 
- <div className="swiper-container">
- <div className="swiper-wrapper">
-     <div class="swiper-slide">
-            <div className="card card1">
-                <div className="sliderText">
-                <h3>Slide one</h3>
+                <div className="swiper-container">
+                    <div className="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div className="card card1">
+                                <div className="sliderText">
+                                    <h3>Mobile Number</h3>
+                                </div>
+                                <div className="content">
+                                    <p>0763802258/0112456012</p>
+                                    {/* <a href="#">Read More</a>*/}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="card card1">
+                                <div className="sliderText">
+                                    <h3>Address</h3>
+                                </div>
+                                <div className="content">
+                                    <p>No, 9/2, Julian Place, Dehiwala, Sri Lanka</p>
+                                    {/*<a href="#">Read More</a>*/}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="card card1">
+                                <div className="sliderText">
+                                    <h3>Email</h3>
+                                </div>
+                                <div className="content">
+                                    <p>bookus234@gmail.com</p>
+                                    {/* <a href="#">Read More</a>*/}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="card card1">
+                                <div className="sliderText">
+                                    <h3>Linkedin</h3>
+                                </div>
+                                <div className="content">
+                                    <p>www.linked.in/internationalBook/</p>
+                                    {/*<a href="#">Read More</a>*/}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="swiper-slide">
+                            <div className="card card1">
+                                <div className="sliderText">
+                                    <h3>Skype</h3>
+                                </div>
+                                <div className="content">
+                                    <p>C258-156-1478</p>
+                                    {/*  <a href="#">Read More</a>*/}
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
-            <div className="content">
-                <p>Cards assume no specific width to start, so they’ll be 100% wide unless otherwise stated. You can change this as needed with custom CSS, grid classes, grid Sass mixins, or utilities.</p>
-                <a href="#">Read More</a>
-            </div>
-            </div>
-     </div>
 
-     <div className="swiper-slide">
-         <div className="card card1">
-             <div className="sliderText">
-                 <h3>Second one</h3>
-             </div>
-             <div className="content">
-                 <p>Cards assume no specific width to start, so they’ll be 100% wide unless otherwise stated. You can
-                     change this as needed with custom CSS, grid classes, grid Sass mixins, or utilities.</p>
-                 <a href="#">Read More</a>
-             </div>
-         </div>
-     </div>
+                <br/>
 
-     <div className="swiper-slide">
-         <div className="card card1">
-             <div className="sliderText">
-                 <h3>Third one</h3>
-             </div>
-             <div className="content">
-                 <p>Cards assume no specific width to start, so they’ll be 100% wide unless otherwise stated. You can
-                     change this as needed with custom CSS, grid classes, grid Sass mixins, or utilities.</p>
-                 <a href="#">Read More</a>
-             </div>
-         </div>
-     </div>
-
-     <div className="swiper-slide">
-         <div className="card card1">
-             <div className="sliderText">
-                 <h3>Four one</h3>
-             </div>
-             <div className="content">
-                 <p>Cards assume no specific width to start, so they’ll be 100% wide unless otherwise stated. You can
-                     change this as needed with custom CSS, grid classes, grid Sass mixins, or utilities.</p>
-                 <a href="#">Read More</a>
-             </div>
-         </div>
-     </div>
-     <div className="swiper-slide">
-         <div className="card card1">
-             <div className="sliderText">
-                 <h3>Fifth one</h3>
-             </div>
-             <div className="content">
-                 <p>Cards assume no specific width to start, so they’ll be 100% wide unless otherwise stated. You can
-                     change this as needed with custom CSS, grid classes, grid Sass mixins, or utilities.</p>
-                 <a href="#">Read More</a>
-             </div>
-         </div>
-     </div>
-
- </div>
-
- </div>
-
-        <br/>
-               
 
             </div>
 

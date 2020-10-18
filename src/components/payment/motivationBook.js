@@ -6,13 +6,10 @@ class MotivationBook extends Component {
             <div className="motiva">
 
                 <div className="jumbotron">
-                    <div className="container">
-                        <h1>Animations and Transitions</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque consequatur rem,
-                            totam sunt aut nesciunt soluta accusamus, officia, voluptate consectetur neque similique sed
-                            possimus ad asperiores! Suscipit, distinctio a natus voluptate ducimus ut, vel dicta maxime
-                            ipsam non in dignissimos fugit velit corrupti labore dolore possimus. Repudiandae,
-                            voluptatibus doloremque!</p>
+                    <div className="containern">
+                        <h1>A LITTLE READING IS ALL THE THERAPY A PERSON NEEDS SOMETIMES</h1>
+                        <p>Reading is important because it develops your mind and gives you excessive knowledge and lessons of life. It helps you understand the world around you better. It keeps your mind active and enhances your creative ability.
+                            Communication Skills: Reading improves your vocabulary and develops your communication skills.</p>
                         <a className="btn bunn" href="#">Learn More</a>
                     </div>
                 </div>

@@ -82,6 +82,8 @@ footer {
   list-style-type: none;
 }
 .products li {
+
+;
   flex: 0 1 29rem;
   height: 47rem;
   padding: 1rem;
@@ -100,9 +102,9 @@ footer {
 
 }
 .check1{
-  font-size: 18px;
+  font-size: 20px;
   color: #c0392b ;
- }
+}
 
 .check3{
   margin-top: 15px;
@@ -127,19 +129,13 @@ footer {
   font-size: 30px;
 }
 
-.button {
+.button123 {
   padding: 1rem;
   border: 0.1rem #c0c0c0 solid;
-
-  background-color: #031827   ;
-  cursor: pointer;
-  background-color: #021827 ;
-
   background-color: #203040   ;
   cursor: pointer;
-
 }
-.button:hover {
+.button123:hover {
   border: 0.1rem #808080 solid;
 }
 .button primary {
@@ -219,41 +215,48 @@ input {
   border: 0.1rem #c0c0c0 solid;
 }
 /* Product Details */
-.product-details {
+.product-details11 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-height: 96vh;
+  height: 50px;
+  font-family: "Font Awesome\ 5 Free", sans-serif;
+  font-size: 10px;
 
 }
-.product-details img {
+.product-details11 img {
   max-height: 100vh;
   max-width: 50rem;
   margin: 0 auto;
 }
-.product-details-description {
+.product-details-description11 {
   flex: 1 1;
   margin: 1rem;
+  font-size: 20px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 
-.close-modal{
+.close112{
   cursor: pointer;
   position: absolute;
   top: 4%;
   right: 0%;
   padding: 10px 10px;
   transform: translate(0%, -50%);
+  background-color: #203040 ;
 }
 
-.close-modal:hover {
+.close112:hover {
   background: #c3c8f7;
 }
 
-.modal{
-  background-color:#d6d8e8 ;
-height: 100%;
+.productmodel{
+  font-family: sans-serif;
+  height: 100%;
   width: 100%;
+  font-size: 15px;
+
 }
 
 /* Order Details */
@@ -339,4 +342,25 @@ th {
 }
 .footer1{
   height: 1000px;
+}
+.priductname{
+  font-family: sans-serif;
+  color: #566573;
+  font-size: 18px;
+}
+.button1234 {
+  background-color: #033046;
+  cursor: pointer;
+  border: 1px solid #1a202c;
+  padding: 8px;
+  min-width: 64px;
+  height: 40px;
+  width: 200px;
+
+  font-size: 16px;
+}
+
+.button1234:hover {
+  background: #033046 ;
+  color: #ffffff;
 }

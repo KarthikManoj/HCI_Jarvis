@@ -1,14 +1,15 @@
 [
   {
-    "Name": "The Intelligent Investor ",
+    "Name": "The Intelligent Investor",
     "image": "/images/business/business1.webp",
     "Price": 6,
-    "City": "The Intelligent Investor ",
+    "City": "The Intelligent Investor",
     "Book Category":"['Benjamin Graham',]",
     "grade": "['Grade 2',]",
     "Ranking": 1,
     "Rating": 5,
-    "Number of Reviews": 136
+    "Number of Reviews": 136,
+    "des":"The Intelligent Investor is based on value investing, an investment approach Graham began teaching at Columbia Business School in 1928 and subsequently refined with David Dodd.[1] This sentiment was echoed by other Graham disciples such as Irving Kahn and Walter Schloss. "
 
   },
   {
@@ -20,7 +21,8 @@
     "grade": "['Grade 5',]",
     "Ranking": 2,
     "Rating": 4.5,
-    "Number of Reviews": 812
+    "Number of Reviews": 812,
+    "des":"Think and Grow Rich was written by Napoleon Hill in 1937 and promoted as a personal development and self-improvement book. He claimed to be inspired by a suggestion from business magnate and later-philanthropist Andrew Carnegie."
   },
   {
     "Name": "Business Adventures",
@@ -31,7 +33,8 @@
     "grade": "['Grade 7',]",
     "Ranking": 3,
     "Rating": 4.5,
-    "Number of Reviews": 567
+    "Number of Reviews": 567,
+    "des":"Business Adventures remains the best business book I’ve ever read.” —Bill Gates, The Wall Street Journal What do the $350 million Ford Motor Company disaster known as the Edsel, the fast and incredible rise of Xerox, and the unbelievable scandals at General Electric and Texas Gulf Sulphur have in common? ..."
   },
   {
     "Name": "Screw Business As Usual",
@@ -42,7 +45,8 @@
     "grade": "['Grade 10',]",
     "Ranking": 4,
     "Rating": 5,
-    "Number of Reviews": 564
+    "Number of Reviews": 564,
+    "des":"Richard Branson, one of the world’s most famous and admired business leaders, argues that it’s time to turn capitalism upside down—to shift our values from an exclusive focus on profit to also caring for people, communities and the planet."
   },
   {
     "Name": "INVALUABLE",
@@ -53,7 +57,8 @@
     "grade": "['Grade 4',]",
     "Ranking": 5,
     "Rating": 4.5,
-    "Number of Reviews": 316
+    "Number of Reviews": 316,
+    "des":"Sixteen-year-old girl seeks advice on how to reach out to a sister who has become distant; how to make up with my best friend, who spends every moment with her new boyfriend;how to avoid losing my job over working on Sundays; and how to figure out who has been putting love notes in my locker."
   },
   {
     "Name": "Where have all the leaders gone?",
@@ -64,7 +69,8 @@
     "grade": "['Grade 3',]",
     "Ranking": 1,
     "Rating": 5,
-    "Number of Reviews": 136
+    "Number of Reviews": 136,
+    "des":"Where Have All the Leaders Gone? is a New York Times bestseller book by Lee Iacocca, the former CEO of Chrysler. It was published in 2007."
 
   },
   {
@@ -76,7 +82,8 @@
     "grade": "['Diploma',]",
     "Ranking": 3,
     "Rating": 4.5,
-    "Number of Reviews": 567
+    "Number of Reviews": 567,
+    "des":"Entrepreneurs are ambitious proactively find and seek-out opportunities, focused, goal-oriented, disciplined, well-organized and meticulous. hard workers who love what they do. not afraid to take risks, not afraid to make mistakes, and face failure, have a knack for innovation and creativity. know what it takes to be successful and have excellent role models. They are also willing to fail and start over again, "
   },
   {
     "Name": "Entrepreneur",
@@ -87,7 +94,8 @@
     "grade": "['Grade 10',]",
     "Ranking": 4,
     "Rating": 5,
-    "Number of Reviews": 564
+    "Number of Reviews": 564,
+    "des":"Being an entrepreneur is all fun until you realize that you’re actually not as experienced as others. Your knowledge might not be at the same level as those who’ve been in the business for twenty years and that scares you."
   },
   {
     "Name": "Profit to People",
@@ -98,7 +106,8 @@
     "grade": "['Grade 3',]",
     "Ranking": 5,
     "Rating": 4.5,
-    "Number of Reviews": 316
+    "Number of Reviews": 316,
+    "des":"Profit Over People: Neoliberalism and Global Order is a 1999 book by Noam Chomsky, published by Seven Stories Press. It contains his critique of neoliberalism. "
   },
   {
     "Name": "CEO",
@@ -109,7 +118,8 @@
     "grade": "['Grade 1',]",
     "Ranking": 1,
     "Rating": 5,
-    "Number of Reviews": 136
+    "Number of Reviews": 136,
+    "des":"Whether it’s growing a team, raising investment or navigating competitive markets, CEOs and business leaders require a great amount of skill and experience. But that’s where books come in handy, allowing you to learn from the mistakes and successes of others. With reader behaviour data from the Perlego platform, Matthew Jones has created a list of the top 10 books read by business leaders – which should come in handy in a time of quarantine."
 
   },
   {
@@ -121,7 +131,8 @@
     "grade": "['Grade 3',]",
     "Ranking": 5,
     "Rating": 4.5,
-    "Number of Reviews": 316
+    "Number of Reviews": 316,
+    "des":"How did Dhirubhai Ambani build a polyester plant in record time? What made JRD Tata launch India’s first airline? How did Vijay Mallya wrest control of Shaw Wallace from Manu Chhabria? Why did Bhai Mohan Singh fall out with his favourite son and lose control of Ranbaxy?"
   },
   {
     "Name": "World Famous",
@@ -132,7 +143,8 @@
     "grade": "['Grade 1',]",
     "Ranking": 1,
     "Rating": 5,
-    "Number of Reviews": 136
+    "Number of Reviews": 136,
+    "des":"This list is generated from 128 \"best of\" book lists from a variety of great sources. An algorithm is used to create a master list based on how many lists a particular book appears on. Some lists count more than others. I generally trust \"best of all time\" lists voted by authors and experts over user-generated lists. On the lists that are actually ranked, the book that is 1st counts a lot more than the book that's 100th. If you're interested in the details about how the rankings are generated and which lists are the most important(in my eyes) please check out the list details page. "
 
   },
   {
@@ -144,7 +156,8 @@
     "grade": "['Grade 01',]",
     "Ranking": 1,
     "Rating": 5,
-    "Number of Reviews": 136
+    "Number of Reviews": 136,
+    "des":"Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry."
 
   },
   {
@@ -156,7 +169,8 @@
     "grade": "['Grade 02',]",
     "Ranking": 2,
     "Rating": 4.5,
-    "Number of Reviews": 812
+    "Number of Reviews": 812,
+    "des":"Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry."
   },
   {
     "Name": "The Dark Road",
@@ -167,7 +181,8 @@
     "grade": "['Grade 05',]",
     "Ranking": 3,
     "Rating": 4.5,
-    "Number of Reviews": 567
+    "Number of Reviews": 567,
+    "des":"Meili, a young peasant woman born in the remote heart of China, is married to Kongzi, a village school teacher, and a distant descendant of Confucius. They have a daughter, but desperate for a son to carry on his illustrious family line, Kongzi gets Meili pregnant again without waiting for official permission."
   },
   {
     "Name": "The English Teacher",
@@ -178,7 +193,8 @@
     "grade": "['Grade 02',]",
     "Ranking": 4,
     "Rating": 5,
-    "Number of Reviews": 564
+    "Number of Reviews": 564,
+    "des":"The English Teacher is a 1945 novel written by R. K. Narayan. It is a part of a series of novels and collections of short stories set in \"Malgudi\". The English Teacher was preceded by Swami and Friends, The Bachelor of Arts and Malgudi Days and followed by Mr. Sampath – The Printer of Malgudi. "
   },
   {
     "Name": "Game of Thrones",
@@ -189,7 +205,8 @@
     "grade": "['Grade 06',]",
     "Ranking": 5,
     "Rating": 4.5,
-    "Number of Reviews": 316
+    "Number of Reviews": 316,
+    "des":"Nine noble families wage war against each other in order to gain control over the mythical land of Westeros. Meanwhile, a force is rising after millenniums and threatens the existence of living men."
   },
   {
     "Name": "Something wonderful",
@@ -200,7 +217,8 @@
     "grade": "['Grade 07',]",
     "Ranking": 1,
     "Rating": 5,
-    "Number of Reviews": 136
+    "Number of Reviews": 136,
+    "des":"A revelatory portrait of the creative partnership that transformed musical theater and provided the soundtrack to the American CenturyThey stand at the apex of the great age of songwriting, the creators "
 
   },
   {
@@ -212,7 +230,8 @@
     "grade": "['Grade 10',]",
     "Ranking": 3,
     "Rating": 4.5,
-    "Number of Reviews": 567
+    "Number of Reviews": 567,
+    "des":"To Kill a Mockingbird is a novel by Harper Lee published in 1960. Instantly successful, widely read in high schools and middle schools in the United States, it has become a classic of modern American literature, winning the Pulitzer Prize. "
   },
   {
     "Name": "A Time To Kill",
@@ -223,7 +242,8 @@
     "grade": "['Grade 10',]",
     "Ranking": 4,
     "Rating": 5,
-    "Number of Reviews": 564
+    "Number of Reviews": 564,
+    "des":"After his ten-year-old daughter is raped, Carl murders her perpetrators. He then faces a trial and calls upon his friend Jake Tyler, a lawyer, to help him win the case."
   },
   {
     "Name": "Dragon Fly",
@@ -234,7 +254,8 @@
     "grade": "['Grade 08',]",
     "Ranking": 5,
     "Rating": 4.5,
-    "Number of Reviews": 316
+    "Number of Reviews": 316,
+    "des":"A dragonfly is an insect belonging to the order Odonata, infraorder Anisoptera. Adult dragonflies are characterized by large, multifaceted eyes, two pairs of strong, transparent wings, sometimes with coloured patches, and an elongated body."
   },
   {
     "Name": "The Point Of Light",
@@ -245,7 +266,8 @@
     "grade": "['Grade 03',]",
     "Ranking": 1,
     "Rating": 5,
-    "Number of Reviews": 136
+    "Number of Reviews": 136,
+    "des":"For fans of All the Light We Cannot See, Beneath a Scarlet Sky, and The Nightingale comes a historical novel about one woman's gallant, fearless search for war crimes evidence during the most terrible times of World War II.May 1940 - Paris."
 
   },
   {
@@ -257,7 +279,8 @@
     "grade": "['Grade 04',]",
     "Ranking": 1,
     "Rating": 5,
-    "Number of Reviews": 136
+    "Number of Reviews": 136,
+    "des":"1942. The U.S. is at war with Germany. Fourteen-year-old Jill Winter's mother is traveling to Newfoundland and must pass through the treacherous North Atlantic, where German submarines -- U-boats -- stalk like wolves."
 
   },
   {
@@ -269,7 +292,8 @@
     "grade": "['Grade 10',]",
     "Ranking": 1,
     "Rating": 5,
-    "Number of Reviews": 136
+    "Number of Reviews": 136,
+    "des":"This is R. J. Rummel's fourth book in a series devoted to genocide and government mass murder, or what he calls democide. He presents the primary results, in tables and figures, as well as a historical sketch of the major cases of democide, those in which one million or more people were killed by a regime."
 
   },{
   "Name": "me before you",
@@ -280,7 +304,8 @@
   "grade": "['Grade 01',]",
   "Ranking": 1,
   "Rating": 5,
-  "Number of Reviews": 136
+  "Number of Reviews": 136,
+  "des":"After becoming unemployed, Louisa Clark is forced to accept one which requires her to take care of Will Traynor, a paralysed man. The two of them soon bond with each other."
 
 },
   {
@@ -292,7 +317,8 @@
     "grade": "['Grade 02',]",
     "Ranking": 2,
     "Rating": 4.5,
-    "Number of Reviews": 812
+    "Number of Reviews": 812,
+    "des":"All alone looking for a new beginning, she discovers new places, she gets lost in the city, she makes new friends, and then she meets him.\n"
   },
   {
     "Name": "A walk to remember",
@@ -303,7 +329,8 @@
     "grade": "['Grade 05',]",
     "Ranking": 3,
     "Rating": 4.5,
-    "Number of Reviews": 567
+    "Number of Reviews": 567,
+    "des":"Landon is assigned community service after getting in trouble. His punishment also involves participating in the spring play, during which he falls in love with Jamie, the reverend's daughter."
   },
   {
     "Name": "The war between us",
@@ -314,7 +341,8 @@
     "grade": "['Grade 02',]",
     "Ranking": 4,
     "Rating": 5,
-    "Number of Reviews": 564
+    "Number of Reviews": 564,
+    "des":"During World War II in British Columbia, a Japanese-Canadian family is forcibly interned and their property confiscated. They become neighbours with a poor white family struggling with the economic hardships of the war."
   },
   {
     "Name": "Other side of the sky",
@@ -325,7 +353,8 @@
     "grade": "['Grade 06',]",
     "Ranking": 5,
     "Rating": 4.5,
-    "Number of Reviews": 316
+    "Number of Reviews": 316,
+    "des":"Amie Kaufman and Meagan Spooner prove they are two living goddesses of writing, creating two compelling worlds with high stakes and gripping emotions"
   },
   {
     "Name": "The thorn birds",
@@ -336,7 +365,8 @@
     "grade": "['Grade 07',]",
     "Ranking": 1,
     "Rating": 5,
-    "Number of Reviews": 136
+    "Number of Reviews": 136,
+    "des":"Richard Chamberlain stars as a priest forced to make a choice between his feelings and his ambitions in this sweeping adaptation of Colleen McCullough's novel. Set in the early 1900s on a sheep station in the Australian outback, the 1983 miniseries follows members of the Cleary family, whose move to…"
 
   },
   {
@@ -348,7 +378,8 @@
     "grade": "['Grade 10',]",
     "Ranking": 3,
     "Rating": 4.5,
-    "Number of Reviews": 567
+    "Number of Reviews": 567,
+    "des":"After serving as a British Army nurse in World War II, Claire Randall is enjoying a second honeymoon in Scotland with husband Frank, an MI6 officer looking forward to a new career as an Oxford historian. Suddenly, Claire is transported to 1743 and into a mysterious world where her freedom and life a…"
   },
   {
     "Name": "Snow with Huntsman",
@@ -359,7 +390,8 @@
     "grade": "['Grade 10',]",
     "Ranking": 4,
     "Rating": 5,
-    "Number of Reviews": 564
+    "Number of Reviews": 564,
+    "des":"A huntsman is tasked with murdering Snow White, a princess, on the orders of her stepmother, the Evil Queen. Instead of killing her, he ends up becoming her protector."
   },
   {
     "Name": "Love story",
@@ -370,7 +402,8 @@
     "grade": "['Grade 08',]",
     "Ranking": 5,
     "Rating": 4.5,
-    "Number of Reviews": 316
+    "Number of Reviews": 316,
+    "des":"Love Story is a 1970 romance novel by American writer Erich Segal. The book's origins lay in a screenplay that Segal wrote, and that was subsequently approved for production by Paramount Pictures. Paramount requested that Segal adapt the story into novel form as a preview of sorts for the film. The novel was released on February 14, 1970,"
   },
   {
     "Name": "The mistake",
@@ -381,7 +414,8 @@
     "grade": "['Grade 03',]",
     "Ranking": 1,
     "Rating": 5,
-    "Number of Reviews": 136
+    "Number of Reviews": 136,
+    "des":"He's a player in more ways than one... College junior John Logan can get any girl he wants. For this hockey star, life is a parade of parties and hook-ups, but behind his killer grins and easygoing charm, he hides growing despair about the dead-end road he'll be forced to walk after graduation."
 
   },
   {
@@ -393,7 +427,8 @@
     "grade": "['Grade 04',]",
     "Ranking": 1,
     "Rating": 5,
-    "Number of Reviews": 136
+    "Number of Reviews": 136,
+    "des":"Bound by tradition. Now they must follow the rules. SHORTLISTED FOR THE WOOLLAHRA DIGITAL LITERARY AWARDS 2017 Companions are the kingdom's most beautiful and educated women-possessions of Syrasan's royal men"
 
   },
   {
@@ -405,7 +440,8 @@
     "grade": "['William Shakespear  ',]",
     "Ranking": 1,
     "Rating": 5,
-    "Number of Reviews": 136
+    "Number of Reviews": 136,
+    "des":"Poetry is a form of literary art in which language is used for its aesthetic and evocative qualities in addition to, or in lieu of, its apparent meaning. Poetry may be written independently, as discrete poems, or may occur in conjunction with other arts, as in poetic drama, hymns or lyrics.\n"
 
   }
 ]

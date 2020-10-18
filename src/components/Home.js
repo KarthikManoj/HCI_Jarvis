@@ -29,6 +29,8 @@ import age from './Images/age.jpg';
 import lake from './Images/lake.jpg';
 import love from './Images/love.jpg';
 
+import '../components/views/moreStyle/maddyHome.css'
+
 
 
 import Rating from '@material-ui/lab/Rating';
@@ -41,8 +43,8 @@ export default class Home extends Component {
             <div>
             <CardDeck>
                 
-                    <Card style={{width:"80%", height:"60%"}}>
-                    <CardActionArea>
+                    <Card className="card">
+                    <CardActionArea >
                     <a href="/bdet">
                         <CardImg  
                         src={obama}
@@ -54,18 +56,26 @@ export default class Home extends Component {
                     />
                     </a>
                     </CardActionArea>
-                        <CardBody>
+                        <br />
+                        <br /> <br />
+
+
+
+                        <CardBody >
+                            <br />
+                            <br /> <br /> <br />
+
                             <CardTitle>Becoming </CardTitle>
                             <CardSubtitle>Michelle Obama</CardSubtitle>
                             <CardText>$18</CardText>
                                 <Box component="fieldset" borderColor="transparent">
                                     <Rating name="read-only" value={3} readOnly />
                                 </Box>
-                            <button class="button">Add to Cart</button>
+                            <button class="buttonm">Add to Cart</button>
                             
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card" >
                         <CardActionArea>
                         <CardImg 
                                 src={far}
@@ -74,18 +84,20 @@ export default class Home extends Component {
                                 
                                 />
                         </CardActionArea>
-                        <CardBody>
+                        <CardBody >
+                            <br />
+                            <br /> <br /> <br /> <br />
                         <CardTitle>Be Not Far From Me</CardTitle>
                         <CardSubtitle>Mindy Mcginnis</CardSubtitle>
                         <CardText>$30</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                         
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={novel}
@@ -94,16 +106,18 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /> <br /> <br />
                         <CardTitle>The Imperfections of Memory</CardTitle>
                         <CardSubtitle>Angelina Aludo</CardSubtitle>
                         <CardText>$70</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={love}
@@ -112,16 +126,18 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /> <br/>
                         <CardTitle>Writers and Lovers</CardTitle>
                         <CardSubtitle>Lily King</CardSubtitle>
                         <CardText>$50</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={mistakes}
@@ -130,16 +146,18 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /> <br /> <br />
                         <CardTitle>The Three mistakes of my life</CardTitle>
                         <CardSubtitle>Chetan Bhagat</CardSubtitle>
                         <CardText>$50</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={harry}
@@ -148,16 +166,18 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br />
                         <CardTitle>Harry Potter and the Goblet of Fire</CardTitle>
                         <CardSubtitle>J.K. Rowling </CardSubtitle>
                         <CardText></CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={wife}
@@ -166,13 +186,15 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /> <br/>
                         <CardTitle>The Silent Wife</CardTitle>
                         <CardSubtitle>A.S.A. Harrison</CardSubtitle>
                         <CardText>$50</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
                     
@@ -181,7 +203,7 @@ export default class Home extends Component {
             <br />
             <CardDeck>
                 
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                     <CardActionArea>
                         <CardImg  
                         src={age}
@@ -190,16 +212,18 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br />  <br />
                         <CardTitle>Such a fun age</CardTitle>
                         <CardSubtitle>Kiley Reid</CardSubtitle>
                         <CardText>$45</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={4} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg 
                                 src={malai}
@@ -209,16 +233,18 @@ export default class Home extends Component {
                                 />
                                 </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /><br />
                         <CardTitle>Marupadiyum Ganesh</CardTitle>
                         <CardSubtitle>Sujatha</CardSubtitle>
                         <CardText>$20</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={heart}
@@ -227,16 +253,18 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /><br />
                         <CardTitle>Heart Spring Mountain</CardTitle>
                         <CardSubtitle>Robin Macarthur</CardSubtitle>
                         <CardText>$52</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={honda}
@@ -245,16 +273,18 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /><br />
                         <CardTitle>Hitha Hoda Dosthara </CardTitle>
                         <CardSubtitle>Samarasinghe Gunasekara</CardSubtitle>
                         <CardText>$20</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={lake}
@@ -263,16 +293,18 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /><br />
                         <CardTitle>The Bell in the Lake</CardTitle>
                         <CardSubtitle>Lars Mytting</CardSubtitle>
                         <CardText>$55</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={kaalam}
@@ -281,16 +313,18 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /><br />
                         <CardTitle>Kolaiyuthir kaalam</CardTitle>
                         <CardSubtitle>Sujatha</CardSubtitle>
                         <CardText>$25</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={hotel}
@@ -299,13 +333,15 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /><br />
                         <CardTitle>The Glass Hotel</CardTitle>
                         <CardSubtitle>Emily St.John Mandel</CardSubtitle>
                         <CardText>$50</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={2} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
                     
@@ -314,7 +350,7 @@ export default class Home extends Component {
             <br />
             <CardDeck>
                 
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                     <CardActionArea>
                         <CardImg  
                         src={night}
@@ -323,16 +359,18 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /><br />
                         <CardTitle>The Longest Night of Charlie Noon</CardTitle>
                         <CardSubtitle>Christopher Edge</CardSubtitle>
                         <CardText></CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg 
                                 src={dennek}
@@ -342,16 +380,18 @@ export default class Home extends Component {
                                 />
                                 </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /><br />
                         <CardTitle>Dennek Nowei Ekkenek</CardTitle>
                         <CardSubtitle>Saman Wickramarachchi</CardSubtitle>
                         <CardText>$24</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={deega}
@@ -360,16 +400,18 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /><br />
                         <CardTitle>Deegayu</CardTitle>
                         <CardSubtitle>Indrajith Prabaswara</CardSubtitle>
                         <CardText>$33</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={4} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={girl}
@@ -378,16 +420,18 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /><br />
                         <CardTitle>The Girl in Room 105</CardTitle>
                         <CardSubtitle>Chetan Bhagat</CardSubtitle>
                         <CardText>$50</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={educate} 
@@ -396,16 +440,18 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /><br />
                         <CardTitle>Educated</CardTitle>
                         <CardSubtitle>Tara Westover</CardSubtitle>
                         <CardText>$65</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={5} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={never}
@@ -414,16 +460,18 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /><br />
                         <CardTitle>If I Never Met You</CardTitle>
                         <CardSubtitle>Mhairi McFarlane</CardSubtitle>
                         <CardText>$60</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
-                    <Card style={{width:"80%", height:"60%"}}>
+                    <Card className="card">
                         <CardActionArea>
                         <CardImg  
                         src={dash}
@@ -432,13 +480,15 @@ export default class Home extends Component {
                     />
                     </CardActionArea>
                         <CardBody>
+                            <br />
+                            <br /> <br /> <br /><br />
                         <CardTitle>A Dash of Belladonna</CardTitle>
                         <CardSubtitle>J.Rackham</CardSubtitle>
                         <CardText>$50</CardText>
                             <Box component="fieldset" borderColor="transparent">
                                 <Rating name="read-only" value={3} readOnly />
                             </Box>
-                        <button class="button">Add to Cart</button>
+                        <button class="buttonm">Add to Cart</button>
                         </CardBody>
                     </Card>
                     

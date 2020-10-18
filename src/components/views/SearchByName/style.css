@@ -2,8 +2,8 @@
     box-shadow: 0 0 5px grey;
     border-radius: 5px;
     margin: 10px;
-    width: 400px;
-    height: 500px;
+    width: 600px;
+    height: 800px;
     font-family: touse;
     background-color: #abb2b9;
     transition-property: box-shadow;
@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
 }
-.button1 {
+.button1234 {
     background-color: #033046;
     cursor: pointer;
     border: 1px solid #1a202c;
@@ -21,13 +21,33 @@
     min-width: 64px;
     height: 40px;
     width: 200px;
+
     font-size: 16px;
 }
 
-.button1:hover {
+.button1234:hover {
     background: #033046 ;
     color: #ffffff;
 }
 .flyout{
     background-color:  #566573 ;
+}
+.bookname{
+    height: 20px;
+    width: 50%;
+    color: black;
+    font-size: 50px;
+
+}
+.heading11{
+    font-size: 25px;
+    color: #203040;
+}
+.desc{
+    font-size: 20px;
+    color: #1a202c;
+}
+.hey{
+    font-size: 30px;
+    color: black;
 }

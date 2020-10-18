@@ -28,24 +28,26 @@ class AddUser extends Component{
 
     render(){
         return(
-<div class="card" >
+            <center><div className="container112">
+                <div className="headuu"> <cenetr>Checkout details</cenetr></div>
                 <form onSubmit={this.handleSubmit}>
+
 
                     <div   className="form-group">
 
-                        <center> <input  name="name" class="form-control" placeholder="Enter your name" required type="text" onChange={ this.updateState} /></center>
+                        <center> <input  name="name"  placeholder="Enter your name" required type="text" onChange={ this.updateState} /></center>
                         <br/>
-                        <center><input name="email" class="form-control"type="email" required placeholder="Enter your email" onChange={ this.updateState } /></center>
+                        <center><input name="email" type="email" required placeholder="Enter your email" onChange={ this.updateState } /></center>
                         <br/>
-                            <center><input name="phone" class="form-control" placeholder="Enter your phone" required  onChange={ this.updateState} /></center>
+                        <center><input name="phone"  placeholder="Enter your phone" required  onChange={ this.updateState} /></center>
                         <br/>
-                                <center> <input name="address" class="form-control" placeholder="Enter your address" required type="text" onChange={ this.updateState} /></center>
+                        <center> <input name="address"  placeholder="Enter your address" required type="text" onChange={ this.updateState} /></center>
                         <br/>
-                        <center><Button href="/FinalPay"  variant="primary"  size="lg"  className="button1">Checkout</Button></center>
+                        <center><Button type="submit" value="Add +"   size="lg"  className="button1234" >Save</Button></center>
                     </div>
 
                 </form>
-</div>
+            </div></center>
         );
     }
 }

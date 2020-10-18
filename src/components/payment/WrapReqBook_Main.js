@@ -14,14 +14,14 @@ class WrapReqBookMain extends Component {
                 <br/>
                 <br/>
                 <RequstBookNew/>
-                <h2>heyy ayyy</h2>
+                <br/>
                 <br/>
                 <br/>
 
-            <div>
-                <Anim/>
-            </div>
-<br/>
+                <div>
+                    <Anim/>
+                </div>
+                <br/>
 
 
             </div>

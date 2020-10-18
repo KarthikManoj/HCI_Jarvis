@@ -23,11 +23,12 @@ motiva {
     text-align: center;
 }
 
-.container h1 {
+.containern h1 {
     position: relative;
     animation-name: header1;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+    font-size: 25px;
 }
 
 @keyframes header1 {
@@ -35,9 +36,19 @@ motiva {
     100% { top: 0; }
 }
 
+.containern p {
+    position: relative;
+    left: -1500px;
+    animation-name: paragraph;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
 
-
-
+@keyframes paragraph {
+    0% { left: -1500px; }
+    100% { left: 0; }
+}
 
 .bunn {
     color: #ffffff;

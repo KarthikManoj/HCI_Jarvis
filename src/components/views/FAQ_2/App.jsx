@@ -22,30 +22,30 @@ class App extends Component {
     super();
     this.state = {
         recipes: {
-          recipe1: {
-            edit: false,
-            title: 'Pizza',
-            items: ["Cheese", "Tomato", "Dough"],
-            hidden: true
-          },
-          recipe2: {
-            edit: false,
-            title: 'PBJ',
-            items: ["Bread", "Peanut Butter", "Jelly"],
-            hidden: true
-          },
-          recipe3: {
-            edit: false,
-            title: 'Ramen',
-            items: ["Egg", "Veggies", "Noodles", "Broth", "Mushrooms"],
-            hidden: true
-          },
-          recipe4: {
-            edit: false,
-            title: 'Burger',
-            items: ["Buns", "Beef Patty", "Tomato", "Lettuce", "Onions"],
-            hidden: true
-          }
+            recipe1: {
+                edit: false,
+                title: 'Do you have a physical store?',
+                items: ["No,We dont"],
+                hidden: true
+            },
+            recipe2: {
+                edit: false,
+                title: 'Are the materials brandnew?',
+                items: ["Yes"],
+                hidden: true
+            },
+            recipe3: {
+                edit: false,
+                title: 'Do you have any delivery charges?',
+                items: ["Yes,it depends on the items you purchase"],
+                hidden: true
+            },
+            recipe4: {
+                edit: false,
+                title: 'How long will it take to deliver?',
+                items: ["It will take maximum 2 days to deliver"],
+                hidden: true
+            }
         }
     }
     
@@ -217,12 +217,12 @@ handleChange(field, e){
                 recipes[recipe].edit ?
               <form className="input-group" ref={(input) => this.editForm = input } onSubmit={(e) => this.editRecipe(e, recipe)}>
                 <div>
-                  <label>USERNAME : </label>
+                  <label>: </label>
                   <br />
                   <input className="form-control" defaultValue={recipes[recipe].title} ref={(input) => this.editTitle = input }/>
                 </div>
                 <div>
-                  <label>SEND YOUR DOUBT :</label>
+                  <label></label>
                   <br />
                 <textarea className="form-control" defaultValue={recipes[recipe].items.join(',')} ref={(input) => this.editTextarea = input}></textarea>
                 </div>

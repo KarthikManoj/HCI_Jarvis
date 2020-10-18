@@ -25,16 +25,7 @@ export default class Mela extends Component {
 
 
                 <div  class="col-sm-8">
-                    <ReactBootstrap.Nav.Link href="/searchName">
-                    <div >
-                        <MDBCol md="6">
-                            <MDBFormInline className="md-form">
-                                <MDBIcon icon="search" />
-                                <input className="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search" />
-                            </MDBFormInline>
-                        </MDBCol>
-                    </div>
-                    </ReactBootstrap.Nav.Link>
+
 
                 </div>
 
@@ -48,7 +39,7 @@ export default class Mela extends Component {
                     <br />
                     <br />
 
-                        <a href="/slide">
+                        <a href="/addcart">
                         <img src={shopping} alt="cart"  height="30" />
                         </a>
                         
@@ -57,7 +48,7 @@ export default class Mela extends Component {
                     <br />
                     <br />
                     <br />
-                    <Button color="dark" size="lg" href="/login" active>
+                    <Button color="dark" size="lg" href="/loginn" active>
                             Login
                     </Button>
                 </div>

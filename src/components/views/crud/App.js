@@ -2,13 +2,16 @@ import React, { Component } from 'react';
 import Users from './Users';
 import AddUser from './AddUser';
 import {Button} from 'react-bootstrap'
+
+import aaaaaa from "./image/aaaaaa.jpg"
+
 class App extends Component{
 
     // Default dummy data
     state = {
 
         users:[
-            {name:"Travis Jackson", email:"akshi@hmail.com",phone:"0772888111",address:"No 3",amount:"$75", isEditing:false}
+
 
 
         ]
@@ -57,17 +60,27 @@ class App extends Component{
     }
 
     render(){
+
         return(
-            <div className="container">
-                <h1>Checkout Details</h1>
+            <div
+                className="bg_image"
+                style={{
+                    backgroundImage: 'url(' + aaaaaa + ')',
+                    backgroundSize: "fill",
 
-                <AddUser addUser={this.addUser}/>
-     <br/><br/><br/>
-                <Users allUsers={this.state.users} pressEditBtn={this.pressEditBtn} updateUser={this.updateUser} pressDelete={this.pressDelete} />
-<br/><br/>
+                }}
+            >
+                <div className="container11">
+                    <br/><br/>
+                    <AddUser addUser={this.addUser}/>
+                    <br/><br/><br/>
+                    <Users allUsers={this.state.users} pressEditBtn={this.pressEditBtn} updateUser={this.updateUser} pressDelete={this.pressDelete} />
+                    <br/><br/>
 
+                </div>
             </div>
         );
+
     }
 }
 

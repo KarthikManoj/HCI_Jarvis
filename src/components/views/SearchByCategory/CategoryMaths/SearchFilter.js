@@ -15,8 +15,8 @@ class SearchFilter extends Component {
             <div>
                 <div className="restfilter">
                     <div>
-                         &nbsp;
-                            <select className="form-control" id="restfilter" onChange={this.optionSelected}>
+                        &nbsp;
+                        <select className="form-control" id="restfilter" onChange={this.optionSelected}>
                             <option  className="option" value="any">Choose Author</option>
                             {this.state.bookCategory.map(bcategory => {
                                 return <option className="option" value={bcategory}>{bcategory}</option>;
@@ -25,7 +25,7 @@ class SearchFilter extends Component {
                     </div>
 
                     <div>
-                         &nbsp;
+                        &nbsp;
                         <select className="form-control"  id="sortfilter" onChange={this.sortBy}>
                             <option className="option" value="ranking">Ranking</option>
                             <option className="option" value="asc">Rating: Low to High</option>
@@ -44,7 +44,7 @@ class SearchFilter extends Component {
                             <div className="rest">
                                 <div className="restinfo">
                                     <i className="fas fa-map-marker"
-                                        style={{ color: "orangered", fontSize: "12px" }}
+                                       style={{ color: "orangered", fontSize: "12px" }}
                                     ></i>
                                     &nbsp;
                                     <center><span  className="restcity">{rest["City"]}</span></center>
@@ -56,10 +56,10 @@ class SearchFilter extends Component {
                                 <br />
                                 <div>
                                     <a href={"#"} >
-                                       <center> <img className="photo"
-                                             width={250}
-                                             height={350}
-                                                     src={rest["image"]} className="check" ></img></center>
+                                        <center> <img className="photo"
+                                                      width={250}
+                                                      height={350}
+                                                      src={rest["image"]} className="check" ></img></center>
                                     </a>
                                 </div>
                                 <br />
@@ -70,10 +70,10 @@ class SearchFilter extends Component {
 
                                     <div>
                                         <i style={{ fontSize: "15px" }}
-                                            className="far fa-comment-alt"
+                                           className="far fa-comment-alt"
                                         ></i>
                                         &nbsp;
-                                       Reviews: {rest["Number of Reviews"]}
+                                        Reviews: {rest["Number of Reviews"]}
                                     </div>
 
 
@@ -86,15 +86,14 @@ class SearchFilter extends Component {
                                 </div>
                                 <br/>
                                 <div>
-                                <Button href="/addCart" type="button" className="button">
-                                    Add to cart
-                                </Button>
-                                <br/>
-                                <br/>
-                                    <Button type="button" className="button">
-                                        Buy Now
-                                    </Button>
+                                    <center><Button href="/addCart" type="button" className="button1234">
+                                        Add to cart
+                                    </Button></center>
                                     <br/>
+                                    <center><Button  href="/app" type="button" className="button1234">
+                                        Buy Now
+                                    </Button></center>
+
                                     <br/>
                                 </div>
                             </div>

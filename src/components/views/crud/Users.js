@@ -21,11 +21,11 @@ class Users extends Component{
                 <tr key={index}>
                     <td><input type="text" ref={(val) => {this.name = val}} required defaultValue={user.name}/></td>
                     <td><input type="email" ref={(val) => {this.email = val}} required defaultValue={user.email}/></td>
-                    <td><input type="" ref={(val) => {this.phone = val}} required defaultValue={user.phone}/></td>
+                    <td><input type="phone" ref={(val) => {this.phone = val}} required defaultValue={user.phone}/></td>
                     <td><input type="text" ref={(val) => {this.address = val}} required defaultValue={user.address}/></td>
                     <td>$78.02</td>
                     <td>
-                        <Button href="/FinalPay" variant="primary"  size="lg"  className="button222" value="Update" onClick={this.handleUpdate} ref={() => {this.indexNum = index}}>Checkout</Button>
+                        <Button href="/payFin"  size="lg"  className="button222"  onClick={this.handleUpdate} ref={() => {this.indexNum = index}}>Checkout</Button>
                     </td>
                 </tr>
 
@@ -37,8 +37,10 @@ class Users extends Component{
                     <td>{user.phone}</td>
                     <td>{user.address}</td>
                     <td>$78.02</td>
-                    <td><Button  variant="primary"  size="lg"  className="button222" onClick={() => pressEditBtn(index)}>Edit</Button>
-                        <Button  variant="primary"  size="lg"  className="button222" onClick={()=>pressDelete(index)}>Delete</Button>
+                    <td><Button    size="lg"  className="button222" onClick={() => pressEditBtn(index)}>Edit</Button>
+                        <Button    size="lg"  className="button222" onClick={()=>pressDelete(index)}>Delete</Button>
+                        <Button href="/payFin"    size="lg"  className="button222">Checkout</Button>
+
                     </td>
                 </tr>
             );
@@ -47,23 +49,23 @@ class Users extends Component{
 
         return(
 
-    <center>
-            <table className="customers">
-                <thead>
-                <tr >
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Phone</th>
-                    <th>Address</th>
-                    <th>Amount</th>
-                    <th>Action</th>
-                </tr>
-                </thead>
-                <tbody>
-                {usersList}
-                </tbody>
-            </table>
-    </center>
+            <center>
+                <table className="customers123">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Address</th>
+                        <th>Amount</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {usersList}
+                    </tbody>
+                </table>
+            </center>
         );
     }
 }

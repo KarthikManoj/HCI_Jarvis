@@ -86,15 +86,14 @@ class SearchFilter extends Component {
                                 </div>
                                 <br/>
                                 <div>
-                                    <Button href="/addCart" type="button" className="button">
+                                    <center><Button href="/addCart" type="button" className="button1234">
                                         Add to cart
-                                    </Button>
+                                    </Button></center>
                                     <br/>
-                                    <br/>
-                                    <Button type="button" className="button">
+                                    <center><Button  href="/app" type="button" className="button1234">
                                         Buy Now
-                                    </Button>
-                                    <br/>
+                                    </Button></center>
+
                                     <br/>
                                 </div>
                             </div>

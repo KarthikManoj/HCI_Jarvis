@@ -17,18 +17,17 @@ class Navigation extends Component {
                             <ReactBootstrap.Nav.Link href="/Catergory">Catergory</ReactBootstrap.Nav.Link>
                             <ReactBootstrap.Nav.Link href="/Cont">Contact US</ReactBootstrap.Nav.Link>                     
                             <ReactBootstrap.Nav.Link href="/payFin">Payment</ReactBootstrap.Nav.Link>
-                            
-                            
-                            
-                            
-                            
-                            
-                            <ReactBootstrap.Nav.Link href="/BB">Review</ReactBootstrap.Nav.Link>
+                           <ReactBootstrap.Nav.Link href="/BB">Review</ReactBootstrap.Nav.Link>
+                            <ReactBootstrap.Nav.Link href="/about">About US</ReactBootstrap.Nav.Link>
+
+                         {/*   <ReactBootstrap.Nav.Link href="/addvert">Addvertiesment</ReactBootstrap.Nav.Link>*/}
                             
                             
                         </ReactBootstrap.Nav>
                         <ReactBootstrap.Nav>
-
+                            <ReactBootstrap.Nav.Link href="/searchName"> <img  width={50}
+                                                                               height={40}
+                                                                               src="https://img.pngio.com/simple-grey-search-icon-transparent-png-stickpng-search-icon-png-2064_2011.png"/></ReactBootstrap.Nav.Link>
                            <ReactBootstrap.Nav.Link eventKey={3} href="/user"><CircleIcon /></ReactBootstrap.Nav.Link>
                         </ReactBootstrap.Nav>
                     </ReactBootstrap.Navbar.Collapse>
